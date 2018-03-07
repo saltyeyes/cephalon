@@ -1,0 +1,12 @@
+obj/
+bin/
+packages/
+*.pubxml.user
+*.csproj.user
+.vs/
+node_modules/
+.git
+images/
+scripts/warframe-drop-data/data/relics/
+scripts/warframe-drop-data/data/missionRewards/
+scripts/warframe-drop-data/data/builds/
