@@ -1,0 +1,207 @@
+Adrenaline Boost
+Alloy Plate
+Ambush Optics
+Ammo Drum
+Argon Crystal
+Argon Plating
+Arrow Mutation
+Astral Slash
+Astral Twilight
+Auroxium Alloy
+Automatic Trigger
+Bane Of Corrupted
+Bane Of Infested
+Barrel Diffusion
+Battering Maneuver
+Bite
+Blazing Steel
+Bleeding Edge
+Blind Shot
+Blood Rush
+Blunderbuss
+Brain Storm
+Breath Of The Eidolon
+Bullet Dance
+Catalyzer Link
+Cetus Wisp
+Charc Electroplax
+Charged Shell
+Circuits
+Cleanse Corpus
+Cleanse Corrupted
+Cleanse Grineer
+Cleanse Infested
+Cleaving Whirlwind
+Coiling Viper
+Combustion Rounds
+Condroc Wing
+Contagious Spread
+Continuity
+Control Module
+Convulsion
+Coprite Alloy
+Covert Lethality
+Credits Cache
+Crushing Ruin
+Cryo Rounds
+Cryotic
+Cutting Edge
+Cyclone Kraken
+Deep Freeze
+Deft Tempo
+Detonite Ampule
+Directed Convergence
+Double Tap
+Draining Gloom
+Dual Rounds
+Efficient Transferral
+Electrified Barrel
+Emergent Aftermath
+Endo
+Enduring Strike
+Enemy Sense
+Energy Inversion
+Esher Devar
+Expel Corrupted
+Expel Infested
+Extend
+Fast Deflection
+Fast Hands
+Feathered Arrows
+Ferrite
+Fersteel Alloy
+Fever Strike
+Final Act
+Final Tap
+Firestorm
+Firewalker
+Fish Scales
+Flow
+Focused Acceleration
+Focused Defense
+Frigid Blast
+Frostbite
+Furor
+Fury
+Gallium
+Galvanized Blade
+Glacial Edge
+Gnashing Payara
+Goopolla Spleen
+Gorgon Frenzy
+Grinloked
+Grokdrul
+Handspring
+Hastened Deflection
+Hastened Steps
+Heated Charge
+Heavy Impact
+Heavy Warhead
+Heightened Reflexes
+Hell's Chamber
+Hellfire
+High Noon
+High Voltage
+Hollowed Bullets
+Hornet Strike
+Hydraulic Barrel
+Hydraulic Chamber
+Hydraulic Crosshairs
+Hydraulic Gauge
+Ice Spring
+Incendiary Coat
+Infected Clip
+Intensify
+Kill Switch
+Life Strike
+Lightning Dash
+Link Armor
+Link Health
+Link Shields
+Lucky Shot
+Magazine Extension
+Magazine Warp
+Master Thief
+Maul
+Measured Burst
+Metal Auger
+Meteor Crash
+Mobilize
+Modified Munitions
+Molten Impact
+Mortal Conduct
+Mutalist Alad V Nav Coordinate
+Natural Talent
+Nebula Bore
+No Return
+North Wind
+Parallax Scope
+Parry
+Patagium
+Pathogen Rounds
+Piercing Hit
+Piercing Step
+Pistol Ammo Mutation
+Pistol Gambit
+Plan B
+Point Blank
+Point Strike
+Poisonous Sting
+Power Throw
+Precision Munition
+Pressure Point
+Provoked
+Quickening
+Ravage
+Reflection
+Reflex Coil
+Reflex Guard
+Rending Turn
+Rifle Ammo Mutation
+Rime Rounds
+Rubedo-Lined Barrel
+Rush
+Scattering Inferno
+Scorch
+Secondary Wind
+Serration
+Shell Shock
+Shocking Touch
+Shotgun Ammo Mutation
+Shrapnel Rounds
+Shrapnel Shot
+Skull Shots
+Smite Corrupted
+Smite Infested
+Sniper Ammo Mutation
+Soaring Strike
+Speed Trigger
+Split Chamber
+Stabilizer
+Static Alacrity
+Steady Hands
+Steel Fiber
+Stormbringer
+Streamline
+Stretch
+Sudden Impact
+Sudden Justice
+Superior Defenses
+System Reroute
+Tactical Retreat
+Target Cracker
+Tempered Blade
+Thermite Rounds
+Thief's Wit
+Thunderbolt
+Thundermiter
+Toxic Flight
+Trick Mag
+Triple Tap
+True Punishment
+Venomous Clip
+Vicious Frost
+Vital Sense
+Vital Systems Bypass
+Vitality
+Volcanic Edge

@@ -1,0 +1,1118 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="generator" content="MediaWiki 1.19.24" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="keywords" content="WARFRAME Wiki,warframe,Module:Focus/data,WARFRAME Wiki,warframe,Module:Focus/data" />
+<meta name="description" content="--Database for Module:Focus -- --go away error messages --based on M:Mods/Data --Sorted first by..." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@getfandom" />
+<meta name="twitter:url" content="http://warframe.wikia.com/wiki/Module:Focus/data" />
+<meta name="twitter:title" content="Editing Module:Focus/data | WARFRAME Wiki | FANDOM powered by Wikia" />
+<meta name="twitter:description" content="--Database for Module:Focus -- --go away error messages --based on M:Mods/Data --Sorted first by Schools, then by Ways - alphabetically -- local FocusData={ [&quot;Foci&quot;]={ -- -- --Madurai -- ..." />
+<link rel="canonical" href="http://warframe.wikia.com/wiki/Module:Focus/data" />
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/wiki/Module:Focus/data?action=edit" />
+<link rel="edit" title="Edit" href="/wiki/Module:Focus/data?action=edit" />
+<link rel="apple-touch-icon" href="https://vignette.wikia.nocookie.net/warframe/images/b/bc/Wiki.png/revision/latest?cb=20160506200612" sizes="155x155" />
+<link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/warframe/images/6/64/Favicon.ico/revision/latest?cb=20141123165606" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="WARFRAME Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://warframe.wikia.com/api.php?action=rsd" />
+<link rel="copyright" href="http://www.wikia.com/Licensing" />
+<link rel="alternate" type="application/atom+xml" title="WARFRAME Wiki Atom feed" href="/wiki/Special:RecentChanges?feed=atom" />
+<title>Editing Module:Focus/data | WARFRAME Wiki | FANDOM powered by Wikia</title>
+
+<!-- CSS injected by skin and extensions -->
+<link rel="stylesheet" href="https://slot1-images.wikia.nocookie.net/__am/1519923639/sasses/background-dynamic%3Dfalse%26background-image%3Dhttps%253A%252F%252Fimg4.wikia.nocookie.net%252Fwarframe%252Fimages%252F5%252F50%252FWiki-background%26background-image-height%3D1213%26background-image-width%3D1920%26color-body%3D%2523ffffff%26color-body-middle%3D%2523ffffff%26color-buttons%3D%2523424242%26color-community-header%3D%2523061212%26color-header%3D%2523808080%26color-links%3D%25230148c2%26color-page%3D%2523eeeeee%26oasisTypography%3D1%26page-opacity%3D88%26widthType%3D0/skins/oasis/css/oasis.scss,extensions/wikia/Forum/css/ForumTag.scss,extensions/wikia/DesignSystem/styles/design-system.scss,extensions/wikia/CommunityHeader/styles/index.scss,extensions/wikia/PageHeader/styles/index.scss,extensions/wikia/Recirculation/styles/recirculation.scss,extensions/wikia/EmbeddableDiscussions/styles/EmbeddableDiscussions.scss,extensions/wikia/PortableInfobox/styles/PortableInfobox.scss,extensions/wikia/EditPageLayout/css/EditPageLayout.scss,extensions/wikia/Qualaroo/css/Qualaroo.scss" /><link rel="stylesheet" href="/load.php?cb=1519923639&debug=false&lang=en&modules=ext.wikia.InfoboxBuilder&only=styles&sass_background-dynamic=false&sass_background-image=https%3A%2F%2Fimg4.wikia.nocookie.net%2Fwarframe%2Fimages%2F5%2F50%2FWiki-background&sass_background-image-height=1213&sass_background-image-width=1920&sass_color-body=%23ffffff&sass_color-body-middle=%23ffffff&sass_color-buttons=%23424242&sass_color-community-header=%23061212&sass_color-header=%23808080&sass_color-links=%230148c2&sass_color-page=%23eeeeee&sass_oasisTypography=1&sass_page-opacity=88&sass_widthType=0&skin=oasis&*" /><!--[if IE 8]><link rel="stylesheet" href="https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/IE80Fixes.css?1519923639" media="screen" /><![endif]--><link rel="stylesheet" href="/load.php?cb=1519923639&debug=false&lang=en&modules=site&only=styles&skin=oasis&*" /><style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: warframe:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */</style>
+
+
+<script>
+var Wikia={},
+wgUseSiteJs=true,
+wgWikiVertical="games",
+wgWikiCategories=[],
+wgMessages={"rte-infobox":"Infobox","rte-add-template":"Add a new template","rte-select-infobox-title":"Select infobox to insert","rte-infobox-builder":"Infobox Builder"},
+wgOnSiteNotificationsApiUrl="https://services.wikia.com/on-site-notifications",
+JSSnippetsStack=[],
+ads={"context":{"opts":{"adsInContent":1,"delayBtf":true,"enableAdsInMaps":true,"pageType":"no_ads","pageFairDetectionUrl":"/load.php?cb=1519923639\x26debug=false\x26lang=en\x26modules=2b10d8518884f01a3beff64438884298\x26only=scripts\x26skin=oasis\x26*","pageFairRecovery":true,"instartLogicRecovery":true,"prebidBidderUrl":["https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/pr3b1d_prod_js"]},"targeting":{"enableKruxTargeting":true,"enablePageCategories":true,"esrbRating":"teen","mappedVerticalName":"gaming","pageArticleId":1227724,"pageIsArticle":true,"pageName":"Module:Focus/data","pageType":"article","skin":"oasis","wikiCategory":"gaming","wikiCustomKeyValues":"sex=m;age=under18;age=18-24;age=25-34;age=18-34;pform=pc;gnre=scifi;gnre=shooter;gnre=3rdpersonshooter;gnre=action;gnre=free2play;gnre=moba;gnre=shooter;gnre=fighting;gnre=fps;theme=alien;theme=military;theme=space;ias=1","wikiDbName":"warframe","wikiIsTop1000":true,"wikiLanguage":"en","wikiVertical":"games","newWikiCategories":["gaming"]},"providers":{"evolve2":true,"audienceNetwork":true},"slots":{"invisibleHighImpact":true},"forcedProvider":null},"runtime":{"disableBtf":false}},
+adslots2=[],
+adDriverLastDARTCallNoAds=[],
+adDriver2ForcedStatus=[],
+wgGaHasAds=false,
+wgAfterContentAndJS=[],
+wgWikiFactoryTagIds=[119,100619],
+wgWikiFactoryTagNames=["2","fandom-stories-search"],
+wgCdnRootUrl="https://slot1-images.wikia.nocookie.net",
+wgCdnApiUrl="https://api.wikia.nocookie.net/__cb1519923639",
+wgDBname="warframe",
+wgCityId="544934",
+wgContentLanguage="en",
+wgUserName=null,
+wgCategories=[],
+wgPageName="Module:Focus/data",
+wikiaPageType="article",
+wikiaPageIsCorporate=false,
+wgArticleType="other",
+wgNamespaceNumber=828,
+skin="oasis",
+_gaq=[],
+wgIsGASpecialWiki=true,
+wgStyleVersion="1519923639",
+wgTransactionContext={"type":"page/other","env":"prod","hostname":"ap-s294","php_version":"7.0.27","wiki":"warframe","entry_point":"page","namespace":828,"logged_in":false,"action":"edit","skin":"oasis"},
+wgEnablePortableInfoboxEuropaTheme=false,
+wgDiscussionsApiUrl="https://services.wikia.com/discussion",
+wgCookieDomain=".wikia.com",
+wgCookiePath="/";
+</script><script>window.mw||(mw={fk:1,loader:{state:function(s){preMwLdrStA=window.preMwLdrStA||[];preMwLdrStA.push(s)}}});</script>
+<!-- Nielsen is disabled --><script>var wgNow = new Date();</script>
+<script>Wikia.InstantGlobals={"wgARecoveryEngineCustomLog":!0,"wgAdDriverPageFairRecoveryCountries":["XX"],"wgAdDriverInstartLogicRecoveryCountries":["CA"],"wgAdDriverAbTestIdTargeting":80,"wgAdDriverAdProductsBridgeCountries":["XX"],"wgAdDriverAdProductsBridgeMobileCountries":["XX"],"wgAdDriverAolBidderCountries":["XX"],"wgAdDriverAolOneMobileBidderCountries":["XX"],"wgAdDriverAppNexusAstBidderCountries":["XX"],"wgAdDriverAppNexusBidderCountries":["XX"],"wgAdDriverAudienceNetworkBidderCountries":["XX"],"wgAdDriverA9BidderCountries":["XX"],"wgAdDriverA9VideoBidderCountries":["XX"],"wgAdDriverBabDetectionDesktopCountries":["XX"],"wgAdDriverBabDetectionMobileCountries":["XX"],"wgAdDriverBeachfrontBidderCountries":["XX"],"wgAdDriverBottomLeaderBoardOnMobileCountries":["PL"],"wgAdDriverDelayCountries":["XX"],"wgAdDriverDelayTimeout":2000,"wgAdDriverDisableSraCountries":["IE","CZ"],"wgAdDriverEvolve2Countries":["CA"],"wgAdDriverFMRLogisticRegressionRabbitCountries":["XX"],
+"wgAdDriverFMRPassiveAggressiveClassifierRabbitCountries":["XX"],"wgAdDriverHighImpactSlotCountries":["XX"],"wgAdDriverHighImpact2SlotCountries":["XX"],"wgAdDriverIncontentPlayerSlotCountries":["XX"],"wgAdDriverIndexExchangeBidderCountries":["XX"],"wgAdDriverKikimoraPlayerTrackingCountries":["XX"],"wgAdDriverKikimoraTrackingCountries":["XX"],"wgAdDriverKikimoraViewabilityTrackingCountries":["XX"],"wgAdDriverKruxCountries":["AU","NZ","BR","CA","CL","FR","DE","IT","MX","ES","GB","US","PL","JP","UK","SG","RU","SE","BE","NL","DK","NO","FI"],"wgAdDriverKILOCountries":["XX"],"wgAdDriverLBScrollExperimentCountires":["XX"],"wgAdDriverLBScrollExperimentBucket":1,"wgAdDriverMEGACountries":["XX"],"wgAdDriverMegaAdUnitBuilderForFVCountries":["XX"],"wgAdDriverMoatTrackingForFeaturedVideoAdCountries":["US","PL","AU","DE","UK","GB"],"wgAdDriverMoatTrackingForFeaturedVideoAdSampling":100,"wgAdDriverN1DecisionTreeClassifierRabbitCountries":["HU"],"wgAdDriverN1LogisticRegressionRabbitCountries":["XX"],
+"wgAdDriverNetzAthletenCountries":["DE"],"wgAdDriverOpenXPrebidBidderCountries":["XX"],"wgAdDriverOutstreamLogisticRegressionRabbitCountries":["XX"],"wgAdDriverPageFairDetectionCountries":["XX"],"wgAdDriverPlayAdsOnNextFVCountries":["XX"],"wgAdDriverPlayAdsOnNextFVFrequency":3,"wgAdDriverPorvataMoatTrackingCountries":["US","PL","AU","DE","UK","GB","MY","CA"],"wgAdDriverPorvataMoatTrackingSampling":25,"wgAdDriverPrebidBidderCountries":["XX"],"wgAdDriverPubMaticBidderCountries":["XX"],"wgAdDriverRabbitTargetingKeyValues":["outstreamlr"],"wgAdDriverRubiconDisplayPrebidCountries":["XX"],"wgAdDriverRubiconPrebidCountries":["XX"],"wgAdDriverScrollDepthTrackingCountries":["PL"],"wgAdDriverSrcPremiumCountries":["XX","non-CA"],"wgAdDriverTurtleCountries":["NO","SE","FI","DK"],"wgArticleVideoAutoplayCountries":["XX"],"wgArticleVideoNextVideoAutoplayCountries":["XX"],"wgReviveSpotlightsCountries":"XX"}</script>
+<!-- Wikia Beacon Tracking -->
+<noscript><img src="https://beacon.wikia-services.com/__track/view?cb=1519923639&c=544934&lc=en&lid=75&x=warframe&y=c3&u=0&a=1227724&s=oasis&&n=828&amp;nojs=1" width="1" height="1" border="0" alt="" /></noscript>
+<script>
+(function() {
+	function genUID() {
+		return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+			var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+			return v.toString(16);
+		});
+	}
+
+	function getCookieValue(cookieName) {
+		const cookieSplit = ('; ' + document.cookie).split('; ' + cookieName + '=');
+
+		return cookieSplit.length === 2 ? cookieSplit.pop().split(';').shift() : null;
+	}
+
+	var expireDate = new Date(),
+		beacon = getCookieValue('wikia_beacon_id'),
+		script = document.createElement('script'),
+		utma = getCookieValue('__utma'),
+		utmb = getCookieValue('__utmb'),
+		trackUrl,
+		sessionId = getCookieValue('tracking_session_id'),
+		pvNumber = getCookieValue('pv_number'),
+		pvNumberGlobal = getCookieValue('pv_number_global');
+
+	if(beacon) {
+		window.beacon_id = beacon;
+	} else {
+		// something went terribly wrong
+		document.addEventListener("DOMContentLoaded", function (event) {
+			var image = document.createElement('img');
+			image.src = 'http://logs-01.loggly.com/inputs/88a88e56-77c6-49cc-af41-6f44f83fe7fe.gif?message=wikia_beacon_id%20is%20empty';
+			image.style.position = 'absolute';
+			image.style.top = '-1000px';
+			document.body.appendChild(image);
+		});
+	}
+
+	window.sessionId = sessionId ? sessionId : genUID();
+	window.pvNumber = pvNumber ? parseInt(pvNumber, 10) + 1 : 1;
+	window.pvNumberGlobal = pvNumberGlobal ? parseInt(pvNumberGlobal, 10) + 1 : 1;
+	window.pvUID = genUID();
+
+	expireDate = new Date(expireDate.getTime() + 1000 * 60 * 30 );
+	document.cookie = 'tracking_session_id=' + window.sessionId + '; expires=' + expireDate.toGMTString() +
+		';domain=' + window.wgCookieDomain + '; path=' + window.wgCookiePath + ';';
+	document.cookie = 'pv_number=' + window.pvNumber + '; expires=' + expireDate.toGMTString() +
+		'; path=' + window.wgCookiePath + ';';
+	document.cookie = 'pv_number_global=' + window.pvNumberGlobal + '; expires=' + expireDate.toGMTString() +
+		';domain=' + window.wgCookieDomain + '; path=' + window.wgCookiePath + ';';
+
+	trackUrl = "https://beacon.wikia-services.com/__track/view?cb=1519923639&c=544934&lc=en&lid=75&x=warframe&y=c3&u=0&a=1227724&s=oasis&&n=828" + ((typeof document.referrer != "undefined") ? "&r=" + escape(document.referrer) : "") +
+		"&rand=" + (new Date).valueOf() + (window.beacon_id ? "&beacon=" + window.beacon_id : "") +
+		(utma && utma[1] ? "&utma=" + utma[1] : "") + (utmb && utmb[1] ? "&utmb=" + utmb[1] : "") +
+		'&session_id=' + window.sessionId + '&pv_unique_id=' + window.pvUID + '&pv_number=' + window.pvNumber +
+		'&pv_number_global=' + window.pvNumberGlobal;
+
+	script.src = trackUrl;
+	document.head.appendChild(script);
+})();
+</script>
+<script src="https://slot1-images.wikia.nocookie.net/__load/-/cb%3D1519923639%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/wikia.ext.instantGlobals,instantGlobalsOverride,abt3sting"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__load/-/cb%3D1519923639%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/amd|wikia.tracker.stub,stub|wikia.abTest,cache,cookies,document,geo,instantGlobals,location,log,querystring,window"></script>
+<script>/*<![CDATA[*/window.mw.fk&&delete mw;/*]]>*/</script>
+<script type="text/javascript" src="https://slot1-images.wikia.nocookie.net/__am/1519923639/groups/-/abtesting,oasis_blocking,universal_analytics_js,adengine2_top_js,qualaroo_blocking_js"></script>
+<!-- Make IE recognize HTML5 tags. -->
+<!--[if IE]>
+	<script>/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>
+<![endif]-->
+
+	<!--[if lt IE 8]>
+		<script src="https://slot1-images.wikia.nocookie.net/__cb1519923639/common/resources/wikia/libraries/json2/json2.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="https://slot1-images.wikia.nocookie.net/__cb1519923639/common/resources/wikia/libraries/html5/html5.min.js"></script>
+	<![endif]-->
+
+	<!-- Combined JS files and head scripts -->
+	<script src="/load.php?cb=1519923639&amp;debug=false&amp;lang=en&amp;modules=startup&amp;newve=1&amp;only=scripts&amp;skin=oasis&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgPageName":"Module:Focus/data","wgTitle":"Focus/data","wgCurRevisionId":1702370,"wgArticleId":1227724,"wgIsArticle":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Module:Focus/data","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgTimeAgoi18n":{"year":"a year ago","years":"%d years ago","month":"a month ago","months":"%d months ago","day":"a day ago","days":"%d days ago","hour":"an hour ago","hours":"%d hours ago","minute":"a minute ago","minutes":"%d minutes ago","seconds":"a minute ago","year-from-now":"\x26lt;timeago-year-from-now\x26gt;","years-from-now":"\x26lt;timeago-year-from-now\x26gt;","month-from-now":"a month from now","months-from-now":"%d months from now","day-from-now":"a day from now","days-from-now":"%d days from now","hour-from-now":"an hour from now","hours-from-now":"%d hours from now","minute-from-now":"a minute from now","minutes-from-now":"%d minutes from now","second-from-now":"a minute from now","seconds-from-now":"a minute from now"},"sassParams":{"background-dynamic":"false","background-image":"https://img4.wikia.nocookie.net/warframe/images/5/50/Wiki-background","background-image-height":"1213","background-image-width":"1920","color-body":"#ffffff","color-body-middle":"#ffffff","color-buttons":"#424242","color-community-header":"#061212","color-header":"#808080","color-links":"#0148c2","color-page":"#eeeeee","oasisTypography":1,"page-opacity":"88","widthType":0},"wgAssetsManagerQuery":"/__am/%4$d/%1$s/%3$s/%2$s","wgWeppyConfig":{"host":"https://speed.nocookie.net/__rum","sample":0.1,"aggregationInterval":1000},"wgCatId":"2","wgBlankImgUrl":"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D","wgMainpage":"WARFRAME Wiki","wgExtensionsPath":"https://slot1-images.wikia.nocookie.net/__cb1519923639/common/extensions","wgResourceBasePath":"https://slot1-images.wikia.nocookie.net/__cb1519923639/common","wgSitename":"WARFRAME Wiki","wgMWrevId":false,"wgEnableNewAuthModal":true,"wgEnableWikiaPhotoGalleryExt":true,"wgOasisGrid":true,"wgEnableMediaGalleryExt":false,"wgWikiaMaxNameChars":50,"wgMinimalPasswordLength":1,"wgEnableLightboxExt":true,"wgEnableWikiaFollowedPages":true,"wgFollowedPagesPagerLimit":15,"wgFollowedPagesPagerLimitAjax":600,"wgEnableWikiaBarAds":true,"wgWikiaBarMainLanguages":["en","de","es","fr"],"wgVisualEditor":{"isPageWatched":false,"pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048,"namespacesWithSubpages":{"1":true,"2":true,"3":true,"5":true,"7":true,"8":true,"9":true,"11":true,"13":true,"15":true,"0":true,"4":true,"6":true,"10":true,"12":true,"14":true,"110":true,"111":true,"828":true,"829":true,"1201":true,"1200":true,"2001":true,"500":true,"501":true,"502":true,"503":true}},"wgMaxUploadSize":10485760,"wgEnableVisualEditorUI":false,"wgEnableWikiaInteractiveMaps":false,"VignettePathPrefix":null,"reCaptchaPublicKey":"6LdDSA4TAAAAANZDWjPdTiQcYsTuge5fMPQTd7D_","wgQualarooUrl":"//s3.amazonaws.com/ki.js/52510/bgJ.js","isContributor":false,"isCurrentWikiAdmin":false,"fullVerticalName":"games","dartGnreValues":["scifi","shooter","3rdpersonshooter","action","free2play","moba","shooter","fighting","fps"],"wgVisualEditorPreferred":false,"wgEnablePortableInfoboxBuilderInVE":false,"wgFlowTrackingFlows":{"CREATE_PAGE_ARTICLE_REDLINK":"create-page-article-redlink","CREATE_PAGE_CONTRIBUTE_BUTTON":"create-page-contribute-button","CREATE_PAGE_CREATE_BOX":"create-page-create-box","CREATE_PAGE_INPUT_BOX":"create-page-input-box","CREATE_PAGE_CREATE_BUTTON":"create-page-create-button","CREATE_PAGE_DIRECT_URL":"create-page-direct-url","CREATE_PAGE_SPECIAL_CREATE_PAGE":"create-page-special-create-page","CREATE_PAGE_SPECIAL_REDLINK":"create-page-special-redlink","CREATE_PAGE_UNRECOGNIZED_FLOW":"create-page-unrecognized"},"egMapsDebugJS":false,"egMapsAvailableServices":["googlemaps3","openlayers","leaflet"],"wgOasisResponsive":false,"wgOasisBreakpoints":true,"verticalName":"Games","wgArticleInterlangList":[],"WikiaEnableNewCreatepage":true,"ContentNamespacesText":[""],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgContentReviewExtEnabled":true,"wgContentReviewTestModeEnabled":false,"wgReviewedScriptsTimestamp":"1517608864","wgScriptsTimestamp":"1517608864","enableWikitextSyntaxHighlighting":true,"aceScriptsPath":"/__am/1519923639/one/minify%3D1/resources/Ace","wgEnableCodePageEditor":true,"showPagePreview":false,"codePageType":"lua","wgIsEditPage":true,"wgEditedTitle":"Module:Focus/data","wgEditPageClass":"SpecialCustomEditPage","wgEditPageHandler":"/index.php?action=ajax\x26rs=EditPageLayoutAjax\x26title=$1","wgEditPreviewMercuryUrl":"/article-preview","wgEditPagePopularTemplates":[],"wgEditPageIsWidePage":false,"wgIsDarkTheme":false,"wgEditPageFormType":null,"wgEditPageIsConflict":false,"wgEditPageIsReadOnly":false,"wgEditPageHasEditPermissionError":false,"wgEditPageSection":"","wgEditPageLicensingUrl":"http://community.wikia.com/wiki/Community_Central:Licensing","wgRightsText":"CC-BY-SA","wgCopywarn":"\x3cdiv id=\"editpage-copywarn\"\x3e\n\x3cp\x3eAll contributions to WARFRAME Wiki are considered to be released under the  CC-BY-SA (see \x3ca href=\"http://community.wikia.com/wiki/Wikia:Licensing\" class=\"extiw\" title=\"w:Wikia:Licensing\"\x3eWikia:Licensing\x3c/a\x3e for details).\x3cbr /\x3e\n\x3c/p\x3e\n\x3c/div\x3e","showAddVideoBtn":true,"RTEDisabledReason":"disablednamespace","wgEnableWikiaMiniUploadExt":true,"wmu_back":"Select another photo","wmu_imagebutton":"Add photo","wmu_close":"\x26lt;wmu-close\x26gt;","wmu_no_preview":"You can\'t add a picture in preview mode.","wmu_warn1":"Please enter a topic that you\'d like to search for.","wmu_warn2":"Please click Browse to select a photo from your hard drive.","wmu_warn3":"Please add the name of the photo.","wmu_bad_extension":"You tried to upload an illegal file type. Please try again.","filetype_missing":"The file has no extension (for example, \".jpg\"). Please check the file and upload again.","file_extensions":["png","gif","jpg","jpeg","ico","pdf","svg","odt","ods","odp","odg","odc","odf","odi","odm","ogg","ogv","oga"],"file_blacklist":["html","htm","js","jsb","mhtml","mht","xhtml","xht","php","phtml","php3","php4","php5","phps","shtml","jhtml","pl","py","cgi","exe","scr","dll","msi","vbs","bat","com","pif","cmd","vxd","cpl"],"check_file_extensions":true,"strict_file_extensions":true,"wmu_show_license_message":"show license text","wmu_hide_license_message":"hide license text","wmu_max_thumb":"Your photo is smaller than the frame. Changing the frame size to fit your photo.","badfilename":"Filename has been changed to \"$1\".","wgEnableVideoToolExt":true,"wgLinkSuggestElements":["#wpTextbox1"]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":1,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"forceeditsummary":0,"hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":1,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"oasis","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":1,"watchdefault":1,"watchdeletion":1,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"enotifdiscussionsfollows":1,"enotifdiscussionsvotes":1,"htmlemails":1,"watchlistdigest":1,"editor":3,"enotifwallthread":2,"wallshowsource":!1,"walldelete":!1,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"variant":"en","language":"en","searchNs0":!0,"searchNs1":!1,"searchNs2":!1,"searchNs3":!1,"searchNs4":!1,"searchNs5":!1,"searchNs6":!1,"searchNs7":!1,"searchNs8":!1,"searchNs9":!1,"searchNs10":!1,"searchNs11":!1,"searchNs12":!1,"searchNs13":!1,"searchNs14":!0,"searchNs15":!1,"searchNs110":!1,"searchNs111":!1,"searchNs500":!1,"searchNs501":!1,"searchNs502":!1,"searchNs503":!1,"searchNs828":!1,"searchNs829":!1,"searchNs1200":!1,"searchNs1201":!1,"searchNs1202":!1,"searchNs2000":!1,"searchNs2001":!1,"searchNs2002":!1,
+"userlandingpage":1});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":!1});;},{},{});
+
+/* cache key: warframe:resourceloader:filter:minify-js:7:c1a685410ad1aa07610780406aaea055 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.edit","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","amd.shared","ext.visualEditor.wikia.viewPageTarget.init"]);
+}</script><script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/groups/-/oasis_shared_core_js,oasis_shared_js,oasis_anon_js,toc_js,adengine2_desktop_js,qualaroo_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/one/minify%3D1/extensions/wikia/WikiaPhotoGallery/js/WikiaPhotoGallery.js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/auth_modal_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/community_header_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/page_header_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/cookie_policy_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/embeddable_discussions_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/wikia_in_your_lang_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/portable_infobox_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/visit_source_js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/flow_tracking_create_page_js"></script>
+<script src="/wikia.php?controller=JSMessages&amp;method=getMessages&amp;format=html&amp;packages=AdEngine%2CConfirmModal%2CEditPageLayout%2CEmbeddableDiscussions%2CImagePlaceholder%2COasis-generic%2CRecirculation&amp;uselang=en&amp;cb=1519923639.1715595.0"></script>
+<script src="/resources/Ace/ace.js"></script>
+<script src="https://slot1-images.wikia.nocookie.net/__am/1519923639/group/-/ace_editor_js"></script>
+<script>if(window.mw){
+mw.loader.using("mediawiki.action.edit", function() {mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_bold.png", "Bold text", "\'\'\'", "\'\'\'", "Bold text", "mw-editbutton-bold");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_italic.png", "Italic text", "\'\'", "\'\'", "Italic text", "mw-editbutton-italic");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_link.png", "Internal link", "[[", "]]", "Link title", "mw-editbutton-link");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_extlink.png", "External link (remember http:// prefix)", "[", "]", "http://www.example.com link title", "mw-editbutton-extlink");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_headline.png", "Level 2 headline", "\n== ", " ==\n", "Headline text", "mw-editbutton-headline");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_image.png", "Embedded file", "[[File:", "]]", "Example.jpg", "mw-editbutton-image");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_media.png", "File link", "[[Media:", "]]", "Example.ogg", "mw-editbutton-media");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_math.png", "Mathematical formula (LaTeX)", "\x3cmath\x3e", "\x3c/math\x3e", "Insert formula here", "mw-editbutton-math");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_nowiki.png", "Ignore wiki formatting", "\x3cnowiki\x3e", "\x3c/nowiki\x3e", "Insert non-formatted text here", "mw-editbutton-nowiki");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_sig.png", "Your signature with timestamp", "--~~~~", "", "", "mw-editbutton-signature");
+mw.toolbar.addButton("https://slot1-images.wikia.nocookie.net/__cb1519923639/common/skins/common/images/button_hr.png", "Horizontal line (use sparingly)", "\n----\n", "", "", "mw-editbutton-hr");
+
+// Create button bar
+$(function() { mw.toolbar.init(); } );
+});
+}</script>
+	<meta property="fb:app_id" content="112328095453510" prefix="fb: http://www.facebook.com/2008/fbml" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="WARFRAME Wiki" />
+	<meta property="og:title" content="Focus/data" />
+	<meta property="og:description" content="--Database for Module:Focus -- --go away error messages --based on M:Mods/Data --Sorted first by Schools, then by Ways - alphabetically -- local FocusData={ [&quot;Foci&quot;]={ -- -- --Madurai -- -- [&quot;Blazing Dash&quot;]={ Image= &quot;FocusBlazingDash.png&quot;, Name= &quot;Blazing Dash&quot;, Description= &quot;Void Dash leaves a trail of fire that deals 100/ 200/ 300/ 400/ 600/ 1000 damage/s over 3/ 6/ 9/ 12/ 12/ 14s. Void Dash will now stun enemies instead of displacing them.&quot;, School= &quot;Madurai&quot;, Unlock= &quot;50,000&quot;, Rankup..." />
+	<meta property="og:url" content="http://warframe.wikia.com/wiki/Module:Focus/data" />
+<meta name="apple-itunes-app" content="app-id=739263891, app-arguments=http://warframe.wikia.com/wiki/Module:Focus/data?action=edit">
+</head>
+<body class="mediawiki ltr ns-828 ns-subject page-Module_Focus_data  codeeditor nowikiabar oasis-one-column editor WikiaGrid skin-oasis  user-anon background-fixed background-not-tiled wiki-warframe" >
+	<div class="background-image-gradient"></div>
+
+
+<div class="WikiaSiteWrapper">
+	<div class="wds-global-navigation-wrapper">
+	<div id="globalNavigation" class="wds-global-navigation ">
+		<div class="wds-global-navigation__content-bar">
+			<a href="//fandom.wikia.com/"
+   class="wds-global-navigation__logo"
+   data-tracking-label="logo">
+	<svg xmlns="http://www.w3.org/2000/svg" width="164" height="35" viewBox="0 0 164 35" class="wds-global-navigation__logo-image wds-is-wds-company-logo-fandom" alt="Fandom powered by Wikia" id="wds-company-logo-fandom"><g fill="none" fill-rule="evenodd"><path d="M32.003 16.524c0 .288-.115.564-.32.768L18.3 30.712c-.226.224-.454.324-.738.324-.292 0-.55-.11-.77-.325l-.943-.886a.41.41 0 0 1-.01-.59l15.45-15.46c.262-.263.716-.078.716.29v2.46zm-17.167 10.12l-.766.685a.642.642 0 0 1-.872-.02L3.01 17.362c-.257-.25-.4-.593-.4-.95v-1.858c0-.67.816-1.007 1.298-.536l10.814 10.56c.188.187.505.57.505 1.033 0 .296-.068.715-.39 1.035zM5.73 7.395L9.236 3.93a.421.421 0 0 1 .592 0l11.736 11.603a3.158 3.158 0 0 1 0 4.5l-3.503 3.462a.423.423 0 0 1-.59 0L5.732 11.89a3.132 3.132 0 0 1-.937-2.25c0-.85.332-1.65.935-2.246zm13.89 1.982l3.662-3.62a3.232 3.232 0 0 1 2.737-.897c.722.098 1.378.47 1.893.978l3.708 3.667a.41.41 0 0 1 0 .585l-5.64 5.576a.419.419 0 0 1-.59 0l-5.77-5.704a.411.411 0 0 1 0-.585zm14.56-.687L26.014.475a.869.869 0 0 0-1.228-.002L18.307 6.94c-.5.5-1.316.5-1.82.004l-6.48-6.4A.87.87 0 0 0 8.793.542L.447 8.67C.16 8.95 0 9.33 0 9.727v7.7c0 .392.158.77.44 1.048l16.263 16.072a.87.87 0 0 0 1.22 0l16.25-16.073c.28-.278.438-.655.438-1.048V9.73c0-.39-.153-.763-.43-1.04z" fill="#00D6D6"/><path d="M62.852 20.51l2.58-6.716a.468.468 0 0 1 .87 0l2.58 6.717h-6.03zm5.856-12.428c-.184-.48-.65-.8-1.17-.8h-3.342c-.52 0-.986.32-1.17.8l-7.083 18.5c-.21.552.2 1.14.796 1.14h2.753c.353 0 .67-.215.796-.542l.738-1.922a.849.849 0 0 1 .795-.542h8.088a.85.85 0 0 1 .796.542l.74 1.922c.125.327.44.543.795.543h2.754a.843.843 0 0 0 .796-1.14l-7.082-18.5zm93.504-.8h-2.715a1.86 1.86 0 0 0-1.677 1.047l-5.393 11.162-5.393-11.163a1.858 1.858 0 0 0-1.677-1.047h-2.715a.889.889 0 0 0-.893.883V26.84c0 .487.4.883.892.883h2.608a.889.889 0 0 0 .893-.883v-9.686l4.945 10.072c.15.304.46.497.803.497h1.073a.893.893 0 0 0 .803-.497l4.945-10.072v9.686c0 .487.4.883.894.883h2.608a.889.889 0 0 0 .893-.883V8.166c0-.487-.4-.883-.893-.883zm-106.972 8.8h-8.63V11.49h10.918a.88.88 0 0 0 .83-.578l.888-2.464a.872.872 0 0 0-.83-1.163h-15.18c-.486 0-.88.39-.88.87v18.7c0 .48.394.87.88.87h2.492c.486 0 .88-.39.88-.87V20.29h7.743a.88.88 0 0 0 .83-.578l.89-2.464a.872.872 0 0 0-.83-1.163zm51.76 7.61h-3.615V11.315H107c3.828 0 6.41 2.517 6.41 6.188 0 3.672-2.582 6.19-6.41 6.19zm-.124-16.41h-7.128c-.486 0-.88.39-.88.872v18.698c0 .48.394.87.88.87h7.128c6.453 0 10.912-4.44 10.912-10.16v-.117c0-5.72-4.46-10.162-10.912-10.162zm-11.947.03h-2.642a.87.87 0 0 0-.876.866v12.36l-8.755-12.72a1.242 1.242 0 0 0-1.023-.535H78.32a.873.873 0 0 0-.876.867v18.706c0 .48.393.867.877.867h2.64a.872.872 0 0 0 .878-.867V14.71l8.608 12.478c.23.334.613.535 1.022.535h3.46a.872.872 0 0 0 .877-.867V8.178a.87.87 0 0 0-.876-.867zm40.71 10.3c0 3.323-2.712 6.016-6.056 6.016-3.345 0-6.056-2.693-6.056-6.015v-.22c0-3.322 2.71-6.015 6.056-6.015 3.344 0 6.055 2.693 6.055 6.015v.22zm-6.056-10.44c-5.694 0-10.31 4.576-10.31 10.22v.22c0 5.646 4.616 10.22 10.31 10.22 5.693 0 10.308-4.574 10.308-10.22v-.22c0-5.644-4.615-10.22-10.308-10.22z" fill="#002A32"/></g></svg>			<svg xmlns="http://www.w3.org/2000/svg" width="129" height="10" viewBox="0 0 129 10" class="wds-global-navigation__logo-image wds-is-wds-company-logo-powered-by-wikia" alt="Fandom powered by Wikia" id="wds-company-logo-powered-by-wikia"><path d="M3.836 4.292c.334 0 .597-.088.79-.264.19-.176.286-.436.286-.78 0-.32-.088-.577-.263-.774-.176-.196-.447-.294-.814-.294h-1.37v2.112h1.37zM.22 8.915A.296.296 0 0 1 .13 8.7V.73C.13.64.156.566.213.504A.291.291 0 0 1 .434.41h3.463c1.06 0 1.892.243 2.496.726.603.483.905 1.19.905 2.124 0 .934-.302 1.632-.905 2.094-.604.463-1.436.694-2.496.694H2.502V8.7a.31.31 0 0 1-.086.215.284.284 0 0 1-.22.092H.436a.294.294 0 0 1-.216-.092zM13.89 6.9c.252-.257.387-.652.403-1.184.016-.474.025-.814.025-1.02 0-.203-.01-.535-.025-.994-.016-.532-.15-.927-.404-1.185-.253-.258-.592-.386-1.016-.386-.432 0-.775.13-1.028.387-.253.258-.387.653-.403 1.185-.01.23-.013.56-.013.995 0 .442.004.782.013 1.02.016.53.15.926.403 1.184.253.26.596.388 1.028.388.424 0 .763-.13 1.015-.387m-3.756 1.383C9.464 7.718 9.11 6.887 9.07 5.79c-.01-.23-.013-.58-.013-1.056 0-.475.004-.83.012-1.068.032-1.08.39-1.914 1.07-2.5.68-.585 1.592-.878 2.734-.878 1.134 0 2.04.293 2.722.88.68.584 1.038 1.417 1.07 2.498.017.475.025.83.025 1.068 0 .245-.007.598-.023 1.056-.04 1.097-.394 1.928-1.06 2.493-.664.565-1.575.847-2.733.847-1.158 0-2.072-.282-2.74-.847m9.602.607a.46.46 0 0 1-.153-.288l-1.31-7.86a.19.19 0 0 1-.01-.073.25.25 0 0 1 .078-.18.255.255 0 0 1 .18-.08h1.6c.238 0 .37.096.393.284l.746 4.642.843-2.69c.066-.22.2-.33.404-.33h.918c.203 0 .338.11.403.33l.845 2.677.758-4.63a.336.336 0 0 1 .11-.214c.058-.046.148-.07.27-.07h1.603c.073 0 .135.028.184.08a.266.266 0 0 1 .073.18v.073l-1.31 7.86a.457.457 0 0 1-.158.287.486.486 0 0 1-.33.117h-1.236a.441.441 0 0 1-.453-.32l-1.21-3.402-1.212 3.402a.566.566 0 0 1-.158.22.439.439 0 0 1-.306.1h-1.223c-.14 0-.25-.04-.337-.118m9.954.028A.298.298 0 0 1 29.6 8.7V.73c0-.09.03-.165.086-.227a.291.291 0 0 1 .22-.092h5.775A.317.317 0 0 1 36 .732v1.216c0 .09-.032.164-.093.222a.318.318 0 0 1-.226.085h-3.865v1.56h3.596a.31.31 0 0 1 .318.319V5.25a.311.311 0 0 1-.317.319h-3.595v1.595h3.963c.09 0 .166.03.227.092.06.062.092.138.092.228V8.7c0 .09-.03.164-.092.22a.307.307 0 0 1-.227.087h-5.872a.29.29 0 0 1-.214-.092M41.88 4.206c.35 0 .62-.088.802-.264.184-.176.275-.42.275-.73 0-.312-.09-.562-.275-.75-.183-.188-.45-.282-.8-.282h-1.36v2.026h1.36zm-3.565 4.71a.295.295 0 0 1-.092-.216V.73c0-.09.028-.165.085-.227a.291.291 0 0 1 .22-.092h3.365c1.077 0 1.92.247 2.526.738.607.49.91 1.183.91 2.075 0 .574-.132 1.06-.397 1.462-.265.4-.63.712-1.095.933l1.652 2.996c.024.05.037.094.037.135a.255.255 0 0 1-.074.177.238.238 0 0 1-.183.08h-1.725a.511.511 0 0 1-.502-.33L41.697 6.01h-1.174V8.7c0 .09-.03.164-.092.22a.304.304 0 0 1-.225.087H38.53a.29.29 0 0 1-.215-.092zm9.215-.001a.296.296 0 0 1-.09-.215V.73a.32.32 0 0 1 .084-.227.291.291 0 0 1 .22-.092h5.775c.09 0 .164.032.225.093a.31.31 0 0 1 .092.228v1.216a.29.29 0 0 1-.092.222.316.316 0 0 1-.226.085h-3.867v1.56h3.597c.09 0 .165.03.226.092.06.06.092.137.092.227V5.25c0 .09-.03.166-.092.227a.31.31 0 0 1-.226.092h-3.597v1.595h3.964c.09 0 .165.03.226.092.06.062.092.138.092.228V8.7c0 .09-.03.164-.092.22a.305.305 0 0 1-.226.087h-5.872a.293.293 0 0 1-.215-.092m12.057-1.75c.514 0 .893-.123 1.138-.368.244-.246.375-.64.39-1.18.017-.236.025-.543.025-.92 0-.376-.008-.68-.024-.91-.016-.523-.157-.91-.422-1.16-.265-.25-.655-.374-1.168-.374H58.36v4.912h1.225zm-3.432 1.75a.298.298 0 0 1-.092-.215V.73c0-.09.03-.165.087-.227a.291.291 0 0 1 .22-.092h3.218c1.207 0 2.145.29 2.814.867.667.577 1.018 1.406 1.05 2.487.01.237.013.553.013.945 0 .392-.004.703-.012.932-.08 2.244-1.35 3.365-3.804 3.365h-3.28a.29.29 0 0 1-.213-.092zM73.2 7.35c.32 0 .566-.093.74-.277a.946.946 0 0 0 .264-.682.95.95 0 0 0-.27-.692c-.178-.184-.423-.276-.733-.276h-1.638V7.35h1.64zm-.11-3.537c.302 0 .535-.082.698-.246.163-.163.245-.376.245-.64 0-.252-.08-.46-.24-.618-.158-.16-.392-.24-.702-.24h-1.528v1.743h1.53zm-3.737 5.102a.296.296 0 0 1-.09-.215V.73a.32.32 0 0 1 .084-.227.291.291 0 0 1 .22-.092h3.78c1.036 0 1.807.214 2.313.64.506.426.76 1.03.76 1.817 0 .393-.105.733-.313 1.02a2.03 2.03 0 0 1-.692.626c.335.147.616.39.845.73.228.34.342.723.342 1.148 0 .828-.27 1.47-.814 1.93-.542.458-1.32.687-2.33.687h-3.89a.293.293 0 0 1-.215-.092zm11.435 0a.296.296 0 0 1-.09-.215V6.085L77.87.805a.269.269 0 0 1-.036-.136.25.25 0 0 1 .08-.18.245.245 0 0 1 .177-.08h1.616a.44.44 0 0 1 .28.087.56.56 0 0 1 .16.184l1.7 3.084 1.7-3.083a.595.595 0 0 1 .16-.183.447.447 0 0 1 .282-.086h1.615a.25.25 0 0 1 .177.08c.053.055.08.114.08.18a.262.262 0 0 1-.037.134l-2.826 5.28V8.7c0 .09-.03.164-.092.22a.307.307 0 0 1-.226.087h-1.677a.293.293 0 0 1-.215-.092M92.3 8.89a.464.464 0 0 1-.152-.288l-1.31-7.86a.166.166 0 0 1-.012-.073c0-.066.027-.126.08-.18a.25.25 0 0 1 .177-.08h1.603c.236 0 .367.096.39.284l.748 4.642.844-2.69c.065-.22.2-.33.404-.33h.917c.203 0 .337.11.403.33l.844 2.677.76-4.63c.015-.097.052-.17.11-.214.056-.046.145-.07.268-.07h1.603c.073 0 .134.028.183.08.05.054.074.114.074.18v.073l-1.31 7.86a.444.444 0 0 1-.158.287.486.486 0 0 1-.33.117H97.2a.439.439 0 0 1-.452-.32l-1.21-3.402-1.213 3.402a.552.552 0 0 1-.16.22.431.431 0 0 1-.305.1h-1.223c-.14 0-.25-.04-.336-.118m9.955.028a.296.296 0 0 1-.09-.215V.718a.304.304 0 0 1 .305-.307h1.75c.09 0 .163.03.22.087a.3.3 0 0 1 .086.22V8.7a.31.31 0 0 1-.086.215.284.284 0 0 1-.22.092h-1.75a.294.294 0 0 1-.214-.092m4.751 0a.298.298 0 0 1-.092-.215V.73c0-.09.03-.165.086-.227a.291.291 0 0 1 .22-.092h1.64c.09 0 .163.032.22.093a.324.324 0 0 1 .085.228V3.41l2.166-2.75c.09-.165.25-.247.477-.247h1.872a.25.25 0 0 1 .177.08c.052.055.08.114.08.18 0 .065-.018.114-.05.147l-2.85 3.708 3.082 4.077c.033.033.05.082.05.147a.246.246 0 0 1-.08.177.257.257 0 0 1-.19.08h-1.92a.578.578 0 0 1-.32-.08.517.517 0 0 1-.17-.165l-2.325-2.997V8.7a.305.305 0 0 1-.085.215.284.284 0 0 1-.22.092h-1.64a.293.293 0 0 1-.214-.092m9.037 0a.298.298 0 0 1-.092-.215V.718c0-.09.03-.163.092-.22a.3.3 0 0 1 .214-.087h1.75c.09 0 .163.03.22.087a.3.3 0 0 1 .086.22V8.7a.31.31 0 0 1-.086.215.284.284 0 0 1-.22.092h-1.75a.293.293 0 0 1-.214-.092m7.276-3.211h2.176l-1.09-3.132-1.087 3.132zm-3.14 3.223a.25.25 0 0 1-.08-.178c0-.05.005-.087.013-.11l2.85-7.872c.082-.238.246-.357.49-.357h1.91c.244 0 .406.12.488.358l2.852 7.87a.384.384 0 0 1 .012.11.25.25 0 0 1-.08.18.246.246 0 0 1-.177.08h-1.59a.424.424 0 0 1-.416-.27l-.44-1.192h-3.205l-.44 1.19a.425.425 0 0 1-.417.27h-1.59a.238.238 0 0 1-.177-.08z" fill="#002A32" fill-rule="evenodd"/></svg>	</a>
+			<div class="wds-global-navigation__links-and-search">
+										<a href="//fandom.wikia.com/topics/games"
+	class="wds-global-navigation__link wds-is-games"
+	data-tracking-label="link.games">
+	Games</a>
+										<a href="//fandom.wikia.com/topics/movies"
+	class="wds-global-navigation__link wds-is-movies"
+	data-tracking-label="link.movies">
+	Movies</a>
+										<a href="//fandom.wikia.com/topics/tv"
+	class="wds-global-navigation__link wds-is-tv"
+	data-tracking-label="link.tv">
+	TV</a>
+									<div class="wds-global-navigation__wikis-menu wds-dropdown">
+		<div class="wds-dropdown__toggle wds-global-navigation__dropdown-toggle"
+					>
+							<span>Wikis</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron" id="wds-icons-dropdown-tiny"><path d="M6 9l4-5H2" fill-rule="evenodd"/></svg>		</div>
+		<div class="wds-dropdown__content wds-global-navigation__dropdown-content ">
+			<ul class="wds-list wds-is-linked">
+									<li><a href="//fandom.wikia.com/explore"
+	class="wds-global-navigation__dropdown-link"
+	data-tracking-label="link.explore">
+	Explore Wikis</a>
+</li>
+									<li><a href="//community.wikia.com/wiki/Community_Central"
+	class="wds-global-navigation__dropdown-link"
+	data-tracking-label="link.community-central">
+	Community Central</a>
+</li>
+									<li><a href="//community.wikia.com/wiki/Fandom_University"
+	class="wds-global-navigation__dropdown-link"
+	data-tracking-label="link.fandom-university">
+	FANDOM University</a>
+</li>
+							</ul>
+		</div>
+	</div>
+				<form class="wds-global-navigation__search" action="//warframe.wikia.com/wiki/Special:Search">
+		<div id="searchInputWrapper" class="wds-dropdown wds-global-navigation__search-input-wrapper">
+		<label class="wds-global-navigation__search-label">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-global-navigation__search-label-icon" id="wds-icons-magnifying-glass"><g fill-rule="evenodd"><path d="M21.747 20.524l-4.872-4.871a.864.864 0 1 0-1.222 1.222l4.871 4.872a.864.864 0 1 0 1.223-1.223z"/><path d="M3.848 10.763a6.915 6.915 0 0 1 6.915-6.915 6.915 6.915 0 0 1 6.915 6.915 6.915 6.915 0 0 1-6.915 6.915 6.915 6.915 0 0 1-6.915-6.915zm-1.729 0a8.643 8.643 0 0 0 8.644 8.644 8.643 8.643 0 0 0 8.644-8.644 8.643 8.643 0 0 0-8.644-8.644 8.643 8.643 0 0 0-8.644 8.644z"/></g></svg>			<input id="searchInput"
+				type="search"
+				class="wds-global-navigation__search-input"
+				name="query"
+									data-suggestions-url="//warframe.wikia.com/index.php?action=ajax&rs=getLinkSuggest&format=json"
+					data-suggestions-param-name="query"
+					data-suggestions-tracking-label="search-suggestion"
+								data-active-placeholder="Search WARFRAME Wiki..."
+				placeholder="Search"
+				autocomplete="off"
+			/>
+		</label>
+		<button class="wds-button wds-is-text wds-global-navigation__search-close" type="reset">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-global-navigation__search-close-icon" alt="Cancel" id="wds-icons-cross"><path d="M19.707 4.293a.999.999 0 0 0-1.414 0L12 10.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L10.586 12l-6.293 6.293a.999.999 0 1 0 1.414 1.414L12 13.414l6.293 6.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L13.414 12l6.293-6.293a.999.999 0 0 0 0-1.414" fill-rule="evenodd"/></svg>		</button>
+		<button class="wds-button wds-global-navigation__search-submit" type="submit" data-tracking-label="search">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-global-navigation__search-submit-icon" id="wds-icons-arrow"><path d="M22.999 12a1 1 0 0 0-1-1H4.413l5.293-5.293a.999.999 0 1 0-1.414-1.414l-7 7a1 1 0 0 0 0 1.415l7 7a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.415L4.413 13h17.586a1 1 0 0 0 1-1" fill-rule="evenodd"/></svg>		</button>
+	</div>
+</form>
+			</div>
+							<div class="wds-global-navigation__account-menu wds-dropdown">
+	<div class="wds-dropdown__toggle wds-global-navigation__dropdown-toggle">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-icon" id="wds-icons-user"><path d="M12 14c3.309 0 6-2.691 6-6V6c0-3.309-2.691-6-6-6S6 2.691 6 6v2c0 3.309 2.691 6 6 6zm5 2H7c-3.86 0-7 3.14-7 7a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1c0-3.86-3.14-7-7-7z" fill-rule="evenodd"/></svg>		<span class="wds-global-navigation__account-menu-caption">My Account</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron" id="wds-icons-dropdown-tiny"><path d="M6 9l4-5H2" fill-rule="evenodd"/></svg>	</div>
+	<div class="wds-dropdown__content wds-global-navigation__dropdown-content wds-is-right-aligned">
+		<ul class="wds-list wds-has-lines-between">
+							<li>
+	<a href="https://www.wikia.com/signin?redirect=http%3A%2F%2Fwarframe.wikia.com%2Fwiki%2FModule%3AFocus%2Fdata%3Faction%3Dedit"
+	   rel="nofollow"
+	   id="global-navigation-anon-sign-in"
+	   data-tracking-label="account.sign-in"
+	   class="wds-button wds-is-full-width">
+		Sign In	</a>
+</li>
+							<li>	<div class="wds-global-navigation__account-menu-dropdown-caption">
+		Don&#039;t have an account?	</div>
+
+	<a href="https://www.wikia.com/register?redirect=http%3A%2F%2Fwarframe.wikia.com%2Fwiki%2FModule%3AFocus%2Fdata%3Faction%3Dedit"
+	   rel="nofollow"
+	   id="global-navigation-anon-register"
+	   data-tracking-label="account.register"
+	   class="wds-button wds-is-full-width wds-is-secondary">
+		Register	</a>
+</li>
+					</ul>
+	</div>
+</div>
+						<div class="wds-global-navigation__start-a-wiki ">
+				<a href="//www.wikia.com/Special:CreateNewWiki" class="wds-global-navigation__start-a-wiki-button wds-button wds-is-squished wds-is-secondary" data-tracking-label="start-a-wiki">
+					<span class="wds-global-navigation__start-a-wiki-caption">Start a Wiki</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-global-navigation__start-a-wiki-icon wds-icon" id="wds-icons-plus"><path d="M11 13v9a1 1 0 1 0 2 0v-9h9a1 1 0 1 0 0-2h-9V2a1 1 0 1 0-2 0v9H2a1 1 0 1 0 0 2h9z" fill-rule="evenodd"/></svg>				</a>
+			</div>
+		</div>
+			</div>
+</div>
+<section id="WikiaPage" class="WikiaPage">
+	<article id="WikiaMainContent" class="WikiaMainContent">
+		<header id="EditPageHeader" class="EditPageHeader">
+			<span class="wordmark medium graphic font-">
+				<a accesskey="z" href="/wiki/WARFRAME_Wiki" title="WARFRAME Wiki">
+											<img src="https://vignette4.wikia.nocookie.net/warframe/images/8/89/Wiki-wordmark.png/revision/latest?cb=20170711123458" alt="WARFRAME Wiki">
+									</a>
+			</span>
+			<h2>Editing </h2>
+			<h1>
+				<a href="/wiki/Module:Focus/data" class="" title="Module:Focus/data">Module:Focus/data</a>
+			</h1>
+			<a id="EditPageTitle" class="EditPageTitle" title="Edit title">
+				<img class="sprite edit-pencil-small" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D">
+			</a>
+						<nav id="EditPageTabs" class="EditPageTabs editpage-tabs" data-space-type="tabs" data-space-autoshow="true"></nav>
+			<aside id="HelpLink" class="HelpLink"><a target="_blank" href="/wiki/Help:Editing" title="Help:Editing">Need help editing?</a></aside>
+			<aside id="NotificationsLink" class="NotificationsLink"><a href="#">Notifications</a></aside>
+		</header>
+
+		<form id="editform" class="editform" name="editform" method="post" action="/wiki/Module:Focus/data?action=submit" enctype="multipart/form-data">
+			<section id="EditPage" class="EditPage">
+				<div id="EditPageMain" class="EditPageMain">
+					<div id="EditPageMainContainer" class="EditPageMainContainer">
+						<div id="EditPageToolbar" class="EditPageToolbar editpage-toolbar" data-space-type="toolbar"></div>
+						<div id="EditPageEditorWrapper" class="EditPageEditorWrapper noPreloads" data-space-type="editor">
+							<div id="EditPageEditor" class="EditPageEditor editpage-content">
+								<!-- basic support for users with JS disabled -->
+								<noscript>
+									<style>
+										.editpage-notices {
+											display: block;
+										}
+
+										#EditPageCallbackFields {
+											display: block !important;
+										}
+									</style>
+								</noscript>
+								<div class="editpage-notices" data-space-type="notices-short">
+									<span class="splotch">0</span>
+									<ul>
+																			</ul>
+								</div>
+								<div class="editpage-notices-html" data-space-type="notices-html" style="display:none"><div id="mw-anon-edit-warning">
+You are not logged in.</div>
+</div>
+																<!-- edit form content -->
+								<div id="mw-content-text"><input type='hidden' value="" name="wpSection" />
+<input type='hidden' value="20180304054246" name="wpStarttime" />
+<input type='hidden' value="20180207195615" name="wpEdittime" />
+<input type='hidden' value="" name="wpScrolltop" id="wpScrolltop" />
+<input type="hidden" value="1" name="isMediaWikiEditor" /><input type="hidden" name="wpLogin" />
+
+<fieldset id="EditPageHiddenFields"></fieldset>
+
+
+<input type="hidden" value="d41d8cd98f00b204e9800998ecf8427e" name="wpAutoSummary" /><input type="hidden" value="0" name="oldid" /><div id="editarea" class="editpage-editarea" data-space-type="editarea"><div id="toolbar"></div><textarea tabindex="1" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">--Database for Module:Focus --
+--go away error messages
+--based on M:Mods/Data
+--Sorted first by Schools, then by Ways - alphabetically
+--
+
+local FocusData = {
+["Foci"] = {
+--
+--
+--Madurai
+--
+--
+	["Blazing Dash"] = {
+		Image = "FocusBlazingDash.png",
+		Name = "Blazing Dash",
+		Description = "Void Dash leaves a trail of fire that deals '''100 / 200 / 300 / 400 / 600 / 1000''' damage/s over '''3 / 6 / 9 / 12 / 12 / 14'''s. Void Dash will now stun enemies instead of displacing them.",
+		School = "Madurai",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Eternal Gaze"] = {
+		Image = "FocusEternalGaze.png",
+		Name = "Eternal Gaze",
+		Description = "Increases the regeneration rate of Energy for Amps and Void Beam by '''10% / 20% / 30% / 40% / 50% / 60% / 60%'''.",
+		School = "Madurai",
+		Type = "Passive, Way-Bound",
+		Unlock = "50,000",
+		Rankup = "120,000 / 162,426 / 240,000 / 340,454 / 459,411 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 4 / 7 / 10 / 13 / 16 / 16",
+	},
+
+	["Flame Blast"] = {
+		Image = "FocusFlameBlast.png",
+		Name = "Flame Blast",
+		Description = "Void Blast releases a ball of fire that deals '''100% / 150% / 200% / 250%''' of the Void Blast damage and explodes after '''0.1 / 0.15 / 0.3 / 0.6'''s.",
+		School = "Madurai",
+		Unlock = "50,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Inner Gaze"] = {
+		Image = "FocusInnerGaze.png",
+		Name = "Inner Gaze",
+		Description = "Increase Energy for Amps and Void Beam by '''10% / 20% / 30% / 40% / 40%'''.",
+		School = "Madurai",
+		Type = "Passive, Way-Bound",
+		Unlock = "25,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 7",
+	},
+
+	["Meteoric Dash"] = {
+		Image = "FocusMeteoricDash.png",
+		Name = "Meteoric Dash",
+		Description = "Void Dash deals '''+100 / +200 / +300 / +400''' Extra Damage to enemies.",
+		School = "Madurai",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Phoenix Spirit"] = {
+		Image = "FocusPhoenixSpirit.png",
+		Name = "Phoenix Spirit",
+		Description = "Elemental Damage increased by '''10% / 15% / 20% / 25%'''.",
+		School = "Madurai",
+		Type = "Passive",
+		Unlock = "25,000",
+		Rankup = "40,000 / 54,142 / 80,000",
+		Pool = "1 / 2 / 3 / 4",
+	},
+
+	["Phoenix Talons"] = {
+		Image = "FocusPhoenixTalons.png",
+		Name = "Phoenix Talons",
+		Description = "Physical Damage increased by '''10% / 15% / 20% / 25%'''.",
+		School = "Madurai",
+		Type = "Passive",
+		Unlock = "25,000",
+		Rankup = "40,000 / 54,142 / 80,000",
+		Pool = "1 / 2 / 3 / 4",
+	},
+
+	["Rising Blast"] = {
+		Image = "FocusRisingBlast.png",
+		Name = "Rising Blast",
+		Description = "Increase damage of Void Blast by '''25% / 50% / 75% / 100%''' and it can now be charged to deal additional damage.",
+		School = "Madurai",
+		Unlock = "80,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Void Radiance"] = {
+		Image = "FocusVoidRadiance.png",
+		Name = "Void Radiance",
+		Description = "Consumes '''25 / 30 / 45 / 50''' energy on leaving Void Mode to blind enemies within '''4 / 6 / 8 / 10'''m for '''2 / 3 / 4 / 5'''s.",
+		School = "Madurai",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Void Strike"] = {
+		Image = "FocusVoidStrike.png",
+		Name = "Void Strike",
+		Description = "On leaving Void Mode the next '''1 / 1 / 2 / 4 / 6 / 8''' attacks deal '''5% / 7% / 8% / 10% / 11% / 12%''' additional damage for every second spent cloaked. Cloak consumes '''2''' additional energy per second.",
+		School = "Madurai",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000 / 340,454 / 459,411",
+		Pool = "1 / 4 / 7 / 10 / 13 / 16",
+	},
+--
+--
+--Naramon
+--
+--
+	["Affinity Spike"] = {
+		Image = "FocusAffinitySpike.png",
+		Name = "Affinity Spike",
+		Description = "Kills from melee attacks grant '''10% / 15% / 20% / 25% / 35% / 45%''' more affinity.",
+		School = "Naramon",
+		Type = "Passive",
+		Unlock = "25,000",
+		Rankup = "40,000 / 54,142 / 80,000 / 113,485 / 153,137",
+		Pool = "1 / 2 / 3 / 4 / 5 / 6",
+	},
+
+	["Disarming Blast"] = {
+		Image = "FocusDisarmingBlast.png",
+		Name = "Disarming Blast",
+		Description = "Enemies hit by Void Blast have a '''10% / 15% / 20% / 25% / 35% / 50%''' chance to be disarmed.",
+		School = "Naramon",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Disorienting Blast"] = {
+		Image = "FocusDisorientingBlast.png",
+		Name = "Disorienting Blast",
+		Description = "Void Blast has a '''20% / 30% / 40% / 50%''' chance of confusing enemies for '''4s / 8s / 12s / 16s''', causing them to be unable to distinguish friend and foe.",
+		School = "Naramon",
+		Unlock = "25,000",
+		Rankup = "40,000 / 54,142 / 80,000",
+		Pool = "1 / 2 / 3 / 4",
+	},
+
+	["Executing Dash"] = {
+		Image = "FocusExecutingDash.png",
+		Name = "Executing Dash",
+		Description = "Void Dash no longer displaces enemies, instead it will open them up to finishers and increase finisher damage taken by '''15% / 20% / 25% / 35%'''.",
+		School = "Naramon",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Mind Sprint"] = {
+		Image = "FocusMindSprint.png",
+		Name = "Mind Sprint",
+		Description = "Increases the speed of Void Dash by '''20% / 40% / 60% / 80% / 100% / 120% / 120%'''.",
+		School = "Naramon",
+		Type = "Passive, Way-Bound",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11 / 11",
+	},
+
+	["Mind Step"] = {
+		Image = "FocusMindStep.png",
+		Name = "Mind Step",
+		Description = "Increase the movement speed of the Operator by '''7% / 15% / 22% / 30% / 30%'''.",
+		School = "Naramon",
+		Type = "Passive, Way-Bound",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 7",
+	},
+
+	["Power Spike"] = {
+		Image = "FocusPowerSpike.png",
+		Name = "Power Spike",
+		Description = "Melee Combo Counter now decays while out of combat by '''20 / 15 / 10 / 5''' every few seconds, instead of depleting completely.",
+		School = "Naramon",
+		Type = "Passive",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Surging Dash"] = {
+		Image = "FocusSurgingDash.png",
+		Name = "Surging Dash",
+		Description = "Creates a wave while dashing, increasing the damage by '''5% / 10% / 15% / 20% / 25% / 30%''' and the area of effect around the Operator by '''2m / 4m / 6m / 8m / 10m / 12m'''.",
+		School = "Naramon",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Void Hunter"] = {
+		Image = "FocusVoidHunter.png",
+		Name = "Void Hunter",
+		Description = "Void Mode reveals enemies within '''10m / 12m / 18m / 25m''' through walls. This range gradually decreases over '''2s / 3s / 4s / 5s''' when the Operator leaves Void Mode. This ability costs an additional '''2 / 2 / 1 / 1''' energy per second.",
+		School = "Naramon",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Void Stalker"] = {
+		Image = "FocusVoidStalker.png",
+		Name = "Void Stalker",
+		Description = "Void Mode increases Critical Chance of melee attacks by up to '''20% / 30% / 40% / 50%''' over '''5s'''. This chance gradually decreases over '''5s / 10s / 15s / 20s''' when the Operator leaves Void Mode. This ability costs an additional '''1 / 2 / 3 / 4''' energy/s.",
+		School = "Naramon",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+--
+--
+--Unairu
+--
+--
+	["Basilisk Gaze"] = {
+		Image = "FocusBasiliskScalesGaze.png",
+		Name = "Basilisk Gaze",
+		Description = "Increase the radius of Void Blast by '''15% / 30% / 45% / 60% / 60%'''.",
+		School = "Unairu",
+		Unlock = "50,000",
+		Type = "Passive, Way-Bound",
+		Rankup = "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 7",
+	},
+
+	["Basilisk Scales"] = {
+		Image = "FocusBasiliskScalesGaze.png",
+		Name = "Basilisk Scales",
+		Description = "Increase armor for the Operator by ''' 50% / 100% / 150% / 200% / 200%'''.",
+		School = "Unairu",
+		Unlock = "50,000",
+		Type = "Passive, Way-Bound",
+		Rankup = "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 7",
+	},
+
+	["Crippling Dash"] = {
+		Image = "FocusCripplingDash.png",
+		Name = "Crippling Dash",
+		Description = "Using Void Dash through an enemy will reduce their damage by''' 20% / 30% / 40% / 50%'''.",
+		School = "Unairu",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Magnetic Blast"] = {
+		Image = "FocusMagneticBlast.png",
+		Name = "Magnetic Blast",
+		Description = "Enemies hit Void Blast are affected by bullet attractor for '''4 / 6 / 8 / 10'''s.",
+		School = "Unairu",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Stone Skin"] = {
+		Image = "FocusStoneSkin.png",
+		Name = "Stone Skin",
+		Description = "Increase armor for Warframe and operator by '''20 / 30 / 40 / 60'''.",
+		School = "Unairu",
+		Type = "Passive",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Sundering Dash"] = {
+		Image = "FocusSunderingDash.png",
+		Name = "Sundering Dash",
+		Description = "Using Void Dash through an enemy will reduce their armor by '''10% / 20% / 30% / 40% / 50% / 75%'''.",
+		School = "Unairu",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000 / 340,454 / 340,454",
+		Pool  = "1 / 4 / 7 / 10 / 13",
+	},
+
+	["Unairu Wisp"] = {
+		Image = "FocusUnairuWisp.png",
+		Name = "Unairu Wisp",
+		Description = "Void Blast has a '''25% / 50% / 75% / 100%''' chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator damage by '''20% / 40% / 60% / 100%''' for '''3 / 6 / 9 / 12''' seconds.",
+		School = "Unairu",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Void Chrysalis"] = {
+		Image = "FocusVoidChrysalis.png",
+		Name = "Void Chrysalis",
+		Description = "Void Mode reduces damage taken by invisible allies within '''10m / 15m / 20m / 25m''' by '''20% / 40% / 60% / 80%'''. This ability costs an additional '''1 / 2 / 3 / 4''' energy/s.",
+		School = "Unairu",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Void Shadow"] = {
+		Image = "FocusVoidShadow.png",
+		Name = "Void Shadow",
+		Description = "Void Mode now renders allies within '''10m / 15m / 20m / 25m''' invisible. This ability costs an additional '''1 / 2 / 3 / 4''' energy/s per ally cloaked.",
+		School = "Unairu",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Void Spines"] = {
+		Image = "FocusVoidSpines.png",
+		Name = "Void Spines",
+		Description = "'''5% / 15% / 25% / 50% / 75% / 100%''' of damage taken is returned to the attacker.",
+		School = "Unairu",
+		Type = "Passive",
+		Unlock = "25,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+--
+--
+--Vazarin
+--
+--
+	["Enduring Tides"] = {
+		Image = "FocusEnduringTides.png",
+		Name = "Enduring Tides",
+		Description = "Increase health of the Operator by '''25% / 50% / 50% / 150% / 150%'''.",
+		School = "Vazarin",
+		Type = "Passive, Way-Bound",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 7",
+	},
+
+	["Guardian Blast"] = {
+		Image = "FocusGuardianBlast.png",
+		Name = "Guardian Blast",
+		Description = "Void Blast consumes 25 energy for each ally hit within '''5m / 6m / 7m / 8m''' and grants them '''50 / 80 / 120 / 160''' shields.",
+		School = "Vazarin",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Guardian Shell"] = {
+		Image = "FocusGuardianShell.png",
+		Name = "Guardian Shell",
+		Description = "Void Blast can be charged to manifest a shield that drains energy for every '''150 / 200 / 250 / 300 / 350 / 400''' damage absorbed.",
+		School = "Vazarin",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Mending Soul"] = {
+		Image = "FocusMendingSoul.png",
+		Name = "Mending Soul",
+		Description = "The next '''1 / 2 / 3 / 4''' revives are instantaneous.",
+		School = "Vazarin",
+		Type = "Passive",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Mending Unity"] = {
+		Image = "FocusMendingUnity.png",
+		Name = "Mending Unity",
+		Description = "Increase affinity radius by '''10m / 15m / 20m / 25m'''.",
+		School = "Vazarin",
+		Type = "Passive",
+		Unlock = "25,000",
+		Rankup = "40,000 / 54,142 / 80,000",
+		Pool = "1 / 2 / 3 / 4",
+	},
+
+	["Protective Dash"] = {
+		Image = "FocusProtectiveDash.png",
+		Name = "Protective Dash",
+		Description = "Allies hit by Void Dash are granted immunity from damage for '''2s / 3s / 4s / 5s''' and healed '''25% / 35% / 45% / 60%''' over 5s.",
+		School = "Vazarin",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Rejuvenating Tides"] = {
+		Image = "FocusRejuvenatingTides.png",
+		Name = "Rejuvenating Tides",
+		Description = "Increase health regeneration of the Operator by '''1/s / 2/s / 3/s / 4/s / 4/s'''.",
+		School = "Vazarin",
+		Type = "Passive, Way-Bound",
+		Unlock = "80,000",
+		Rankup = " 120,000 / 162,426 / 240,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 4 / 7 / 10 / 10",
+	},
+
+	["Sonic Dash"] = {
+		Image = "FocusSonicDash.png",
+		Name = "Sonic Dash",
+		Description = "Void Dash no longer displaces enemies, instead it emits a shockwave '''8m / 10m / 12m / 14m''' wide and travels '''2m / 4m / 6m / 8m''' stunning any enemy it hits.",
+		School = "Vazarin",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Void Aegis"] = {
+		Image = "FocusVoidAegis.png",
+		Name = "Void Aegis",
+		Description = "Void Mode creates a shield that grows up to '''5m / 8m / 10m / 12m''' over 5s. This ability costs an additional 2 energy/s.",
+		School = "Vazarin",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Void Regen"] = {
+		Image = "FocusVoidRegen.png",
+		Name = "Void Regen",
+		Description = "Void Mode heals '''+4 / +8 / +16 / +25''' health/s. This ability costs an additional 2 energy/s.",
+		School = "Vazarin",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+--
+--
+--Zenurik
+--
+--
+	["Energizing Dash"] = {
+		Image = "FocusEnergizingDash.png",
+		Name = "Energizing Dash",
+		Description = "Void Dash creates a zone of energy for '''4 / 4 / 5 / 5 / 6 / 8''' seconds. Allies passing through the zone gain '''3 / 3 / 4 / 4 / 5 / 5''' energy/second for '''10 / 15 / 20 / 22 / 25 / 30''' seconds.",
+		School = "Zenurik",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Energy Pulse"] = {
+		Image = "FocusEnergyPulse.png",
+		Name = "Energy Pulse",
+		Description = "Energy pickups grant '''25% / 30% / 35% / 40% / 45% / 50%''' additional energy over '''10 / 9 / 8 / 7 / 6 / 5''' seconds.",
+		School = "Zenurik",
+		Type = "Passive",
+		Unlock = "25,000",
+		Rankup = "40,000 / 54,142 / 80,000 / 113,485 / 153,137",
+		Pool = "1 / 2 / 3 / 4 / 5 / 6",
+	},
+
+	["Inner Might"] = {
+		Image = "FocusInnerMight.png",
+		Name = "Inner Might",
+		Description = "Increase Melee Channeling Efficiency by '''10% / 20% / 30% / 40% / 50% / 60%'''.",
+		School = "Zenurik",
+		Type = "Passive",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Lightning Dash"] = {
+		Image = "FocusLightningDash.png",
+		Name = "Lightning Dash",
+		Description = "Manifests ball lightning after a Void Dash that travels slowly and zaps enemies within '''4 / 8 / 12 / 16''' meters for '''200 / 400 / 600 / 800''' damage. Costs '''10''' energy",
+		School = "Zenurik",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Temporal Blast"] = {
+		Image = "FocusTemporalBlast.png",
+		Name = "Temporal Blast",
+		Description = "Void Blast slows enemies by '''20% / 30% / 40% / 50% / 60% / 80%''' for '''4 / 6 / 8 / 10 / 12 / 15''' seconds.",
+		School = "Zenurik",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11",
+	},
+
+	["Void Flow"] = {
+		Image = "FocusVoidFlow.png",
+		Name = "Void Flow",
+		Description = "Increase Operator Energy by '''15% / 30% / 45% / 60% / 75% / 90% / 90%'''.",
+		School = "Zenurik",
+		Type = "Passive, Way-Bound",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000 / 340,454 / 459,411 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 4 / 7 / 10 / 13 / 16 / 16",
+	},
+
+	["Void Singularity"] = {
+		Image = "FocusVoidSingularity.png",
+		Name = "Void Singularity",
+		Description = "Void Mode pulls enemies within '''10 / 12 / 15 / 20''' meters towards the Operator, and costs an additional '''2 / 2 / 2 / 2''' energy/second.",
+		School = "Zenurik",
+		Unlock = "80,000",
+		Rankup = "120,000 / 162,426 / 240,000",
+		Pool = "1 / 4 / 7 / 10",
+	},
+
+	["Void Siphon"] = {
+		Image = "FocusVoidSiphon.png",
+		Name = "Void Siphon",
+		Description = "Increase Operator Energy Regeneration by '''15% / 30% / 45% / 60% / 75% / 90% / 90%'''.",
+		School = "Zenurik",
+		Type = "Passive, Way-Bound",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000 / 226,969 / 306,274 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]",
+		Pool = "1 / 3 / 5 / 7 / 9 / 11 / 11",
+	},
+
+	["Void Static"] = {
+		Image = "FocusVoidStatic.png",
+		Name = "Void Static",
+		Description = "Void Mode emits a pulse that deals '''200 / 300 / 400 / 500''' damage/second over '''8 / 10 / 12 / 15''' meters and costs an additional '''2 / 2 / 2 / 1''' energy/second.",
+		School = "Zenurik",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+
+	["Voltaic Blast"] = {
+		Image = "FocusVoltaicBlast.png",
+		Name = "Voltaic Blast",
+		Description = "Void Blast creates a surge of electricity, zapping enemies within '''4 / 6 / 8 / 10''' meters for '''100% / 125% / 150% / 200%''' damage.",
+		School = "Zenurik",
+		Unlock = "50,000",
+		Rankup = "80,000 / 108,284 / 160,000",
+		Pool = "1 / 3 / 5 / 7",
+	},
+}
+}
+
+return FocusData
+</textarea><div class="loading-indicator" data-space-type="loading-status">
+	<div class="loading-background"></div>
+	<div class="loading-message">
+		<span class="loading-throbber">&nbsp;</span>
+		<span class="loading-text">Loading editor</span>
+	</div>
+</div>
+</div><div class="wikia-scribunto-console"><div id="mw-scribunto-console"></div></div><input type="hidden" value="on" name="wpWatchthis" />
+<input type="hidden" value="+\" name="wpEditToken" />
+<div class="mw-editTools"><div style="margin-top:3em; margin-bottom:0.7em;">Below are some commonly used wiki markup codes. Simply click on what you want to use and it will appear in the edit box above.</div>
+<div id="editpage-specialchars" class="plainlinks" style="border:1px solid #aaaaaa; padding:2px;">
+<p><span id="edittools_main"><b>Insert:</b> <a onclick="insertTags(&#39;–&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">–</a>
+<a onclick="insertTags(&#39;—&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">—</a>
+<a onclick="insertTags(&#39;…&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">…</a>
+<a onclick="insertTags(&#39;°&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">°</a>
+<a onclick="insertTags(&#39;≈&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">≈</a>
+<a onclick="insertTags(&#39;≠&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">≠</a>
+<a onclick="insertTags(&#39;≤&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">≤</a>
+<a onclick="insertTags(&#39;≥&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">≥</a>
+<a onclick="insertTags(&#39;±&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">±</a>
+<a onclick="insertTags(&#39;−&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">−</a>
+<a onclick="insertTags(&#39;×&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">×</a>
+<a onclick="insertTags(&#39;÷&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">÷</a>
+<a onclick="insertTags(&#39;←&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">←</a>
+<a onclick="insertTags(&#39;→&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">→</a>
+<a onclick="insertTags(&#39;·&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">·</a>
+<a onclick="insertTags(&#39;§&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">§</a></span><span id="edittools_name">  <b>Sign your username:</b> <a onclick="insertTags(&#39;~~~~&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">~~~~</a></span>
+</p>
+<hr />
+<p><small><span id="edittools_wikimarkup"><b>Wiki markup:</b>
+<a onclick="insertTags(&#39;{{&#39;,&#39;}}&#39;,&#39;&#39;);return false" href="#">{{}}</a>  
+<a onclick="insertTags(&#39;|&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">|</a>  
+<a onclick="insertTags(&#39;[&#39;,&#39;]&#39;,&#39;&#39;);return false" href="#">[]</a>  
+<a onclick="insertTags(&#39;[[&#39;,&#39;]]&#39;,&#39;&#39;);return false" href="#">[[]]</a>  
+<a onclick="insertTags(&#39;[[Category:&#39;,&#39;]]&#39;,&#39;&#39;);return false" href="#">[[Category:]]</a>  
+<a onclick="insertTags(&#39;#REDIRECT [[&#39;,&#39;]]&#39;,&#39;&#39;);return false" href="#">#REDIRECT [[]]</a>  
+<a onclick="insertTags(&#39;&lt;s&gt;&#39;,&#39;&lt;/s&gt;&#39;,&#39;&#39;);return false" href="#">&lt;s&gt;&lt;/s&gt;</a>  
+<a onclick="insertTags(&#39;&lt;sup&gt;&#39;,&#39;&lt;/sup&gt;&#39;,&#39;&#39;);return false" href="#">&lt;sup&gt;&lt;/sup&gt;</a>  
+<a onclick="insertTags(&#39;&lt;sub&gt;&#39;,&#39;&lt;/sub&gt;&#39;,&#39;&#39;);return false" href="#">&lt;sub&gt;&lt;/sub&gt;</a>  
+<a onclick="insertTags(&#39;&lt;code&gt;&#39;,&#39;&lt;/code&gt;&#39;,&#39;&#39;);return false" href="#">&lt;code&gt;&lt;/code&gt;</a>  
+<a onclick="insertTags(&#39;&lt;blockquote&gt;&#39;,&#39;&lt;/blockquote&gt;&#39;,&#39;&#39;);return false" href="#">&lt;blockquote&gt;&lt;/blockquote&gt;</a>  
+<a onclick="insertTags(&#39;&lt;ref&gt;&#39;,&#39;&lt;/ref&gt;&#39;,&#39;&#39;);return false" href="#">&lt;ref&gt;&lt;/ref&gt;</a>  
+<a onclick="insertTags(&#39;{{Reflist}}&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">{{Reflist}}</a>  
+<a onclick="insertTags(&#39;&lt;references/&gt;&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">&lt;references/&gt;</a>  
+<a onclick="insertTags(&#39;&lt;includeonly&gt;&#39;,&#39;&lt;/includeonly&gt;&#39;,&#39;&#39;);return false" href="#">&lt;includeonly&gt;&lt;/includeonly&gt;</a>  
+<a onclick="insertTags(&#39;&lt;noinclude&gt;&#39;,&#39;&lt;/noinclude&gt;&#39;,&#39;&#39;);return false" href="#">&lt;noinclude&gt;&lt;/noinclude&gt;</a>  
+<a onclick="insertTags(&#39;{{DEFAULTSORT:&#39;,&#39;}}&#39;,&#39;&#39;);return false" href="#">{{DEFAULTSORT:}}</a>  
+<a onclick="insertTags(&#39;&lt;nowiki&gt;&#39;,&#39;&lt;/nowiki&gt;&#39;,&#39;&#39;);return false" href="#">&lt;nowiki&gt;&lt;/nowiki&gt;</a>  
+<a onclick="insertTags(&#39;&lt;!-- &#39;,&#39; --&gt;&#39;,&#39;&#39;);return false" href="#">&lt;!--  --&gt;</a> 
+<a onclick="insertTags(&#39;&lt;span class=\&quot;plainlinks\&quot;&gt;&#39;,&#39;&lt;/span&gt;&#39;,&#39;&#39;);return false" href="#">&lt;span class=&quot;plainlinks&quot;&gt;&lt;/span&gt;</a><br /></span>
+<span id="edittools_symbols"><b>Symbols:</b> <a onclick="insertTags(&#39;~&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">~</a>
+<a onclick="insertTags(&#39;|&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">|</a>
+<a onclick="insertTags(&#39;¡&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¡</a>
+<a onclick="insertTags(&#39;¿&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¿</a>
+<a onclick="insertTags(&#39;†&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">†</a>
+<a onclick="insertTags(&#39;‡&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">‡</a>
+<a onclick="insertTags(&#39;↔&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">↔</a>
+<a onclick="insertTags(&#39;↑&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">↑</a>
+<a onclick="insertTags(&#39;↓&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">↓</a>
+<a onclick="insertTags(&#39;•&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">•</a>
+<a onclick="insertTags(&#39;¶&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¶</a>  
+<a onclick="insertTags(&#39;#&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">#</a>
+<a onclick="insertTags(&#39;¹&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¹</a>
+<a onclick="insertTags(&#39;²&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">²</a>
+<a onclick="insertTags(&#39;³&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">³</a>
+<a onclick="insertTags(&#39;½&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">½</a>
+<a onclick="insertTags(&#39;⅓&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">⅓</a>
+<a onclick="insertTags(&#39;⅔&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">⅔</a>
+<a onclick="insertTags(&#39;¼&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¼</a>
+<a onclick="insertTags(&#39;¾&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¾</a>
+<a onclick="insertTags(&#39;⅛&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">⅛</a>
+<a onclick="insertTags(&#39;⅜&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">⅜</a>
+<a onclick="insertTags(&#39;⅝&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">⅝</a>
+<a onclick="insertTags(&#39;⅞&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">⅞</a>
+<a onclick="insertTags(&#39;∞&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">∞</a>  
+<a onclick="insertTags(&#39;‘&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">‘</a>
+<a onclick="insertTags(&#39;“&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">“</a>
+<a onclick="insertTags(&#39;’&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">’</a>
+<a onclick="insertTags(&#39;”&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">”</a>
+<a onclick="insertTags(&#39;«&#39;,&#39;»&#39;,&#39;&#39;);return false" href="#">«»</a>  
+<a onclick="insertTags(&#39;¤&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¤</a>
+<a onclick="insertTags(&#39;₳&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₳</a>
+<a onclick="insertTags(&#39;฿&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">฿</a>
+<a onclick="insertTags(&#39;₵&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₵</a>
+<a onclick="insertTags(&#39;¢&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¢</a>
+<a onclick="insertTags(&#39;₡&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₡</a>
+<a onclick="insertTags(&#39;₢&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₢</a>
+<a onclick="insertTags(&#39;$&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">$</a>
+<a onclick="insertTags(&#39;₫&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₫</a>
+<a onclick="insertTags(&#39;₯&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₯</a>
+<a onclick="insertTags(&#39;€&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">€</a>
+<a onclick="insertTags(&#39;₠&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₠</a>
+<a onclick="insertTags(&#39;₣&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₣</a>
+<a onclick="insertTags(&#39;ƒ&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">ƒ</a>
+<a onclick="insertTags(&#39;₴&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₴</a>
+<a onclick="insertTags(&#39;₭&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₭</a>
+<a onclick="insertTags(&#39;₤&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₤</a>
+<a onclick="insertTags(&#39;ℳ&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">ℳ</a>
+<a onclick="insertTags(&#39;₥&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₥</a>
+<a onclick="insertTags(&#39;₦&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₦</a>
+<a onclick="insertTags(&#39;№&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">№</a>
+<a onclick="insertTags(&#39;₧&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₧</a>
+<a onclick="insertTags(&#39;₰&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₰</a>
+<a onclick="insertTags(&#39;£&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">£</a>
+<a onclick="insertTags(&#39;៛&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">៛</a>
+<a onclick="insertTags(&#39;₨&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₨</a>
+<a onclick="insertTags(&#39;₪&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₪</a>
+<a onclick="insertTags(&#39;৳&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">৳</a>
+<a onclick="insertTags(&#39;₮&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₮</a>
+<a onclick="insertTags(&#39;₩&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">₩</a>
+<a onclick="insertTags(&#39;¥&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">¥</a>  
+<a onclick="insertTags(&#39;♠&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">♠</a>
+<a onclick="insertTags(&#39;♣&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">♣</a>
+<a onclick="insertTags(&#39;♥&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">♥</a>
+<a onclick="insertTags(&#39;♦&#39;,&#39;&#39;,&#39;&#39;);return false" href="#">♦</a><br /></span>
+</small>
+</p>
+</div>
+<p><span style="float:right;"><small><i><a href="/wiki/MediaWiki:Edittools" title="MediaWiki:Edittools">View this template</a></i></small></span>
+</p></div>
+<div class="hiddencats"></div>
+<div id='antispam_container' style='display: none'>
+<label for='antispam'>This field is a spam trap. <strong>DO NOT</strong> fill it in!</label>
+<input type='text' value='' id='antispam' name='antispam' />
+</div>
+<noscript><link rel="stylesheet" href="https://slot1-images.wikia.nocookie.net/__cb1519923639/common/extensions/wikia/ImageLazyLoad/css/ImageLazyLoadNoScript.css" /></noscript></div><div class="printfooter">
+Retrieved from "<a href="http://warframe.wikia.com/wiki/Module:Focus/data">http://warframe.wikia.com/wiki/Module:Focus/data</a>"</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="editpage-widemode-trigger">
+					<span class="arrow"></span>
+				</div>
+				<div id="EditPageRail" class="EditPageRail editpage-rail" data-space-type="rail">
+					<noscript>
+						<style>
+							.module_page_controls .wikia-menu-button {
+								display: none;
+							}
+						</style>
+					</noscript>
+					<div class="module module_page_controls">
+						<div class="module_content">
+							<div class="wpSummaryFields">
+								<div class="checkboxes">
+																			<label class="scribunto_ignore_errors">
+											<input type="checkbox" name="scribunto_ignore_errors" tabindex="2" id="scribunto_ignore_errors"  />
+											Allow saving code with errors										</label>
+																										</div>
+								<label  for="wpSummary">Edit summary</label>
+								<div id="wpSummaryLabel">
+									<input type="text" id="wpSummary" name="wpSummary" placeholder="Add a summary of your edit" tabindex="1" value="" />								</div>
+							</div>
+														<nav class="buttons">
+																	<nav class="wikia-menu-button wikia-menu-button-submit" >
+				<input id="wpSave" class="codepage-publish-button" type="submit" value="Publish"/>
+
+	<span class="drop">
+		<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron">
+	</span>
+	<ul class="WikiaMenuElement">
+		<li>
+			<a href="#"  accesskey="v" data-id="0"   id="wpDiff">Show changes</a>
+		</li>
+	</ul>
+</nav>
+															</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+		</form>
+	</article>
+
+	</section>
+
+	
+	<!-- NO AD GPT_FLUSH (levels: [&quot;*&quot;]) -->
+<!-- NO AD EVOLVE_FLUSH (levels: [&quot;*&quot;]) -->
+<!-- NO AD TURTLE_FLUSH (levels: [&quot;*&quot;]) -->
+</div>
+
+<script type="text/javascript">/*<![CDATA[*/ Wikia.LazyQueue.makeQueue(wgAfterContentAndJS, function(fn) {fn();}); wgAfterContentAndJS.start(); /*]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/ if (typeof AdEngine_trackPageInteractive === 'function') {wgAfterContentAndJS.push(AdEngine_trackPageInteractive);} /*]]>*/</script>
+<script src="/load.php?cb=1519923639&amp;debug=false&amp;lang=en&amp;modules=ext.siteWideMessages.anon&amp;only=scripts&amp;skin=oasis&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.scribunto.edit","wikia.article.edit","mediawiki.user","mediawiki.page.ready","ext.designSystem","ext.bannerNotifications","ext.cookiePolicyMessages","ext.userLogin","ext.wikia.LinkSuggest"], null, true);
+}</script>
+<script src="/load.php?cb=1519923639&amp;debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;reviewed=1517608864&amp;skin=oasis&amp;*"></script>
+<script>(function(){importWikiaScriptPages(["external:dev:Tooltips.js", "CustomDiscordWidget.js", "external:dev:BackToTopButton/code.js", "external:dev:Countdown/code.js", "external:dev:EditIntroButton/code.js", "external:dev:ReferencePopups/code.js", "ImageTooltip.js", "Common.js/userRightsIcons.js", "LimitedEventCall.js", "external:dev:DupImageList/code.js", "external:dev:SeeMoreActivityButton/code.js", "Maximization.js"]);})();</script><script>var wgSassLoadedScss = ["skins\/oasis\/css\/oasis.scss","extensions\/wikia\/Forum\/css\/ForumTag.scss","extensions\/wikia\/DesignSystem\/styles\/design-system.scss","extensions\/wikia\/CommunityHeader\/styles\/index.scss","extensions\/wikia\/PageHeader\/styles\/index.scss","extensions\/wikia\/Recirculation\/styles\/recirculation.scss","extensions\/wikia\/EmbeddableDiscussions\/styles\/EmbeddableDiscussions.scss","extensions\/wikia\/PortableInfobox\/styles\/PortableInfobox.scss","extensions\/wikia\/EditPageLayout\/css\/EditPageLayout.scss","extensions\/wikia\/Qualaroo\/css\/Qualaroo.scss"];</script>
+</body>
+
+
+
+</html>

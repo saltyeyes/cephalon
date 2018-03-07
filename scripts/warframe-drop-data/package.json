@@ -1,0 +1,15 @@
+{
+  "name": "warframe-drop-data",
+  "version": "0.0.1",
+  "description": "Converts the official Warframe drop data into something useable.",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generateData.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.81.0"
+  }
+}

@@ -1,0 +1,378 @@
+<!doctype html>
+<title>Warframe Drop Data</title>
+
+<meta property="og:title" content="Warframe Drop Data" />
+<meta property="og:description" content="A tool/api to search through Digital Extremes official Warframe drop data website." />
+<meta property="og:url" content="http://drops.warframestat.us" />
+<meta property="og:image" content="http://drops.warframestat.us/misc/logo.png" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Warframe Drop Data"/>
+
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+<link rel="shortcut icon" href="misc/logo.png" />
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+    #loading {
+        position: absolute;
+
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background-color: #363636;
+        color: white;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        font-size: 30vw;
+
+        z-index: 9999;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .content {
+    }
+
+    .searchfield {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    #tablebody th::before {
+        content: "# ";
+    }
+
+    td.msg {
+        text-align: center;
+    }
+
+    .footer {
+        position: fixed;
+
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background: white;
+        color: #555;
+
+        font-size: 12px;
+
+        text-align: center;
+    }
+
+    .footer a {
+        color: #555;
+        text-decoration: none;
+        font-weight: bolder;
+
+        transition: color 0.5s ease;
+    }
+
+    .footer a:hover {
+        color: #0099FF;
+    }
+
+    #lastbuildtime {
+        font-weight: bolder;
+    }
+</style>
+
+<div id="loading">
+    <i class="fa fa-refresh fa-spin"></i>
+</div>
+
+<section>
+    <div class="container">
+        <div class="header">
+            <div>
+                <img src="misc/logo.png" height="64">
+                <h5>Warframe Drop Data</h5>
+                <a target="_blank" href="https://github.com/WFCD/warframe-drop-data#api-endpoints">API Documentation</a> | <a target="_blank" href="https://github.com/WFCD/warframe-drop-data">Github</a>
+            </div>
+
+            <input class="searchfield" placeholder="Search here..." id="search-field" type="text" />
+        </div>
+
+        <div class="content">
+            <table class="u-full-width">
+                <tbody id="tablebody">
+                    <tr><td class="msg">Type what you're looking for into the search above above!</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <b>NOTE</b>: This data is parsed from <a href="https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html" target="_blank">Digital Extremes official drop data website</a>, no data mining was involved.
+    Build time: <span id="lastbuildtime">...</span>
+</footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
+<script>
+    String.prototype.contains = function(substr) {
+        return this.toLowerCase().indexOf(substr.toLowerCase()) > -1
+    }
+
+    // used for some hacks ;)
+    const CURR_SCRIPT_VERSION = 6
+
+    // convert data to avoid having to redownload it
+    function updateData(fromVersion, toVersion) {
+        if(fromVersion < 6) {
+            // easier then converting stuff :D
+            localStorage.clear()
+        }
+
+        window._script_version = CURR_SCRIPT_VERSION
+        localStorage.setItem("_script_version", CURR_SCRIPT_VERSION)
+    }
+
+    $(document).ready(function() {
+        let time = new Date().getTime()
+
+        window._script_version = Number(localStorage.getItem("_script_version") || -1)
+
+        updateData(window._script_version, CURR_SCRIPT_VERSION)
+
+        $.getJSON(`/data/info.json?${time}`, function(data) {
+            let hash = data.hash
+            let timestamp = data.timestamp
+
+            console.log("/data/info.json", data)
+
+            let oldData = JSON.parse(localStorage.getItem("_wfinfo") || "{\"hash\":\"clem\"}")
+
+            if(hash !== oldData.hash) {
+                console.log("new hash found, re-download data")
+                localStorage.setItem("_wfinfo", JSON.stringify(data))
+
+                $.getJSON(`/data/all.json?${time}`, function(all) {
+                    all = formatData(all)
+
+                    localStorage.setItem("_wfdata", JSON.stringify(all))
+                    onDataRetrieved(all)
+                })
+            } else {
+                onDataRetrieved(JSON.parse(localStorage.getItem("_wfdata")))
+            }
+        })
+    })
+
+    function onDataRetrieved(data) {
+        window._data = data
+
+        let info = JSON.parse(localStorage.getItem("_wfinfo"))
+        let date = new Date(info.timestamp)
+
+        $("#lastbuildtime").text(date.toISOString())
+
+        let matches = window.location.hash.match(/\#?\/search\/(.*)\//)
+
+        if(matches && matches.length > 0) {
+            $("#search-field").val(decodeURIComponent(matches[matches.length - 1]))
+        }
+
+        const searchFieldValue = $("#search-field").val()
+
+        if(searchFieldValue) {
+            search(searchFieldValue)
+        }
+
+        $("#loading").remove()
+    }
+
+    $("#search-field").on("keyup", function(ev) {
+        search($(this).val())
+    })
+
+    function search(searchValue) {
+        if(searchValue.length < 2) {
+            $("#tablebody").empty()
+            $("#tablebody").append("<tr><td class='msg'>You have to type in at least 2 characters to search...</td></tr>")
+            return
+        }
+
+        window.location.hash = `/search/${encodeURIComponent(searchValue)}/`
+
+        console.log("searching for", searchValue)
+
+        fill(window._data.filter(entry => entry.item.contains(searchValue)))
+    }
+
+    function formatData(data) {
+        let newData = []
+
+        // mission rewards
+        // planets
+        for(let planetName of Object.keys(data.missionRewards)) {
+
+            // locations
+            for(let locationName of Object.keys(data.missionRewards[planetName])) {
+
+                let location = data.missionRewards[planetName][locationName]
+
+                if(Array.isArray(location.rewards)) {
+                    let placeName = `${planetName}/${locationName} (<b>${location.gameMode}</b>)`
+
+                    for(let reward of location.rewards) {
+                        newData.push({
+                            place: placeName,
+                            item: reward.itemName,
+                            rarity: reward.rarity,
+                            chance: reward.chance
+                        })
+                    }
+                } else {
+                    for(let rotationName of Object.keys(location.rewards)) {
+                        let placeName = `${planetName}/${locationName} (<b>${location.gameMode}</b>), Rotation ${rotationName}`
+
+                        for(let reward of location.rewards[rotationName]) {
+                            newData.push({
+                                place: placeName,
+                                item: reward.itemName,
+                                rarity: reward.rarity,
+                                chance: reward.chance
+                            })
+                        }
+                    }
+                }
+            }
+        }
+
+        // blueprint locations
+        for(let blueprint of data.blueprintLocations) {
+            for(let enemy of blueprint.enemies) {
+                newData.push({
+                    place: enemy.enemyName,
+                    item: blueprint.blueprintName,
+                    rarity: enemy.rarity,
+                    chance: (((enemy.enemyBlueprintDropChance / 100) * (enemy.chance / 100)) * 100).toFixed(2)
+                })
+            }
+        }
+
+        // mod locations
+        for(let mod of data.modLocations) {
+            for(let enemy of mod.enemies) {
+                newData.push({
+                    place: enemy.enemyName,
+                    item: mod.modName,
+                    rarity: enemy.rarity,
+                    chance: (((enemy.enemyModDropChance / 100) * (enemy.chance / 100)) * 100).toFixed(2)
+                })
+            }
+        }
+
+        // relics
+        for(let relic of data.relics) {
+            for(let item of relic.rewards) {
+                newData.push({
+                    place: `${relic.tier} ${relic.relicName} ${relic.state}`,
+                    item: item.itemName,
+                    rarity: item.rarity,
+                    chance: item.chance
+                })
+            }
+        }
+
+        // sortie rewards
+        for(let sortie of data.sortieRewards) {
+            newData.push({
+                place: "Sorties",
+                item: sortie.itemName,
+                rarity: sortie.rarity,
+                chance: sortie.chance
+            })
+        }
+
+        // transient rewards
+        for(let objective of data.transientRewards) {
+            for(let reward of objective.rewards) {
+                let rotation = ""
+
+                if(reward.rotation) {
+                    rotation = ` ${reward.rotation}`
+                }
+
+                newData.push({
+                    place: `${objective.objectiveName}${rotation}`,
+                    item: reward.itemName,
+                    rarity: reward.rarity,
+                    chance: reward.chance
+                })
+            }
+        }
+
+        // cetus bounty rewards
+        for(let bountyLevel of data.cetusBountyRewards) {
+            let levelRange = bountyLevel.bountyLevel
+
+            for(let rewardTier of Object.keys(bountyLevel.rewards)) {
+                for(let reward of bountyLevel.rewards[rewardTier]) {
+                    newData.push({
+                        place: `Cetus ${levelRange} Rotation ${rewardTier}`,
+                        item: reward.itemName,
+                        rarity: reward.rarity,
+                        chance: reward.chance
+                    })
+                }
+            }
+        }
+
+        return newData
+    }
+
+    /* data structure (in array)
+        {
+            place: Eris/Xini Rotation A
+            item: Vitality
+            rarity: Rare
+            chance: 9.09
+        }
+    */
+    function fill(data) {
+        // clear content pane
+        $("#tablebody").empty()
+
+        if(data.length === 0) {
+            $("#tablebody").append("<tr><td class='msg'><i class='fa fa-exclamation-circle'></i> Nothing found that matches your search query.</td></tr>")
+            return
+        }
+
+        data = data.sort(function(a, b) {
+            return b.chance - a.chance || a.place.localeCompare(b.place) || a.item.localeCompare(b.item)
+        })
+
+        $("#tablebody").append(`<tr>
+            <th>Item Name</th>
+            <th>Drops</th>
+            <th>Rarity</th>
+            <th>Chance</th>
+        </tr>`)
+
+        for(let obj of data) {
+            $("#tablebody").append(`<tr>
+                <td>${obj.item}</td>
+                <td>${obj.place}</td>
+                <td>${obj.rarity}</td>
+                <td><b>${obj.chance}%</b></td>
+            </tr>`)
+        }
+
+    }
+</script>
